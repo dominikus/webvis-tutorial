@@ -1,13 +1,9 @@
 ._*
 *.sublime-workspace
 *.sublime-project
-.sass-cache/
+*.sass-cache/
 build-tmp/
-node_modules/
-bower_components/
+*node_modules/
+*bower_components/
 dev/
 dist/
-experiments/tools/*/images*
-/www/.ftppass
-images
-*.pyc
