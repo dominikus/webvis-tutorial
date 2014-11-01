@@ -50,6 +50,11 @@ module.exports = function(grunt) {
 					'css/theme/solarized.css': 'css/theme/source/solarized.scss',
 					'css/theme/blood.css': 'css/theme/source/blood.scss'
 				}
+			},
+			override: {
+				files: {
+					'css/overrides.css': 'sass/overrides.sass',
+				}
 			}
 		},
 
@@ -98,12 +103,17 @@ module.exports = function(grunt) {
 
 		watch: {
 			main: {
-				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css' ],
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css', 'sass/**/*' ],
 				tasks: 'default'
 			},
+
 			theme: {
 				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
 				tasks: 'themes'
+			},
+
+			options: {
+				livereload: true,
 			}
 		}
 
@@ -120,7 +130,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'jshint', 'cssmin', 'uglify', 'qunit' ] );
+	grunt.registerTask( 'default', [ 'jshint', 'sass:override', 'cssmin', 'uglify', 'qunit' ] );
 
 	// Theme task
 	grunt.registerTask( 'themes', [ 'sass' ] );

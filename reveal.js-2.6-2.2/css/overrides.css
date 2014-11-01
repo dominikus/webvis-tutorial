@@ -1,0 +1,15 @@
+* {
+  font-family: "Avenir Next", Arial, sans !important;
+  font-weight: 400 !important; }
+
+section * {
+  text-align: left; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600 !important;
+  line-height: 1 !important; }
+
+p {
+  line-height: 1.33 !important; }
+
+/*# sourceMappingURL=overrides.css.map */
