@@ -130,7 +130,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'jshint', 'sass:override', 'cssmin', 'uglify', 'qunit' ] );
+	grunt.registerTask( 'default', [ 'jshint', 'sass:override', 'cssmin', 'uglify' ] );
 
 	// Theme task
 	grunt.registerTask( 'themes', [ 'sass' ] );
