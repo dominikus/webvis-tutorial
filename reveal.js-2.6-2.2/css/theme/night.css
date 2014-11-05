@@ -19,7 +19,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #4256e9;
   text-shadow: none; }
 
 /*********************************************
@@ -46,7 +46,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #e7ad52;
+  color: #babcff;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -55,7 +55,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #f3d7ac;
+  color: #9da4ff;
   text-shadow: none;
   border: none; }
 

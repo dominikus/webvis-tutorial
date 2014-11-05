@@ -1,14 +1,8 @@
 <section data-background="assets/kitten.gif">
 # Everything except the chart
-### [Dominikus Baur](http://do.minik.us)
-### [Moritz Stefaner](http://moritz.stefaner.eu)
+## IEEE VIS 2014 Tutorial
+## [Dominikus Baur](http://do.minik.us) & [Moritz Stefaner](http://moritz.stefaner.eu)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Note:
 Hello visweek!

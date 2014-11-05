@@ -37,6 +37,14 @@ Note:
 
 
 <section data-background="">
+<a href="http://localhost:8001">Small backbone demo</a>
+<iframe class="full" src="http://localhost:8001"></iframe>
+Note:
+</section>
+
+
+
+<section data-background="">
 <h1>Many others</h1>
 <ul>
 	<li>
@@ -52,4 +60,6 @@ Note:
 		…
 	</li>
 </ul>
+
+<p>Virtual DOM</p>
 </section>

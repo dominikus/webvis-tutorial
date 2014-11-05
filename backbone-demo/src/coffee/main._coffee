@@ -23,6 +23,20 @@ class App extends Backbone.Router
 			el: $("#user-info")
 		)
 
+		# wire UI controls
+		$("#name-field").on "change", ()=>
+			userName = $("#name-field").val()
+			console.log "user name changed through form", userName
+
+			@models.currentUser.set "name", userName
+
+			# important, otherwise, page reload
+			return false
+
+		# tie model changes to location hash
+		@models.currentUser.on "change", ()=>
+			@navigate @models.currentUser.get "name", silent:true
+
 		# start app and read first location hash
 		Backbone.history.start()
 
