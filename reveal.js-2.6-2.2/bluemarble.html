@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+</head>
+
+<body>
+<script type="text/javascript">
+
+d3.json("assets/data/world-110m_mm.json", function(error, world) {
+  if (error) {
+    return;
+  }
+
+  var c, canvas, globe, graticule, height, land, path, projection, width;
+
+  var handleOrientation = function(orientData) {
+    absolute = orientData.absolute;
+    alpha = orientData.alpha;
+    beta = orientData.beta;
+    gamma = orientData.gamma;
+    if ((alpha != null) || (beta != null) || (gamma != null)) {
+      render({
+        "absolute": absolute,
+        "alpha": alpha,
+        "beta": beta,
+        "gamma": gamma
+      });
+    }
+  };
+
+  var setup = function() {
+    width = 250;
+    height = 250;
+
+    projection = d3.geo.orthographic().translate([width / 2, height / 2]).scale(width / 2).clipAngle(90);
+    canvas = d3.select("body").append("canvas").attr({
+      "width": width,
+      "height": height
+    });
+    c = canvas.node().getContext("2d");
+    path = d3.geo.path().projection(projection).context(c);
+    globe = {
+      type: "Sphere"
+    };
+    land = topojson.feature(world, world.objects.land);
+
+    c.font = "20px Helvetica";
+    c.fillText("BEST VIEWED ON ", 0, 50);
+    c.fillText("PORTABLE DEVICES", 0, 80);
+    c.fillText("(SERIOUSLY)", 0, 110);
+
+    // listen for motion events:
+    window.addEventListener("deviceorientation", handleOrientation, true);
+  };
+
+  var render = function(orientation) {
+    if ((orientation != null) && (orientation.beta != null) && (orientation.gamma != null) && (orientation.alpha != null)) {
+      projection.rotate([-orientation.gamma, orientation.beta, -orientation.alpha]);
+      var c_ocean = "#000";
+
+      c.clearRect(0, 0, width, height);
+      c.fillStyle = c_ocean; c.beginPath(); path(globe); c.fill();
+      c.strokeStyle = "white"; c.lineWidth = 2; c.beginPath(); path(land); c.stroke();
+    }
+  };
+
+
+  setup();
+
+});
+</script>
+
+  </body>
+</html>
