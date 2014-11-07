@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Everything except the chart</title>
+
+		<meta name="description" content="Visweek 2014: Everything except the chart tutorial">
+		<meta name="author" content="Dominikus Baur, Moritz Stefaner">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<!-- <link rel="stylesheet" href="css/theme/minikus1280.css" id="theme"> -->
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/overrides.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<script type="text/javascript" src="lib/js/d3.min.js"></script>
+		<script type="text/javascript" src="lib/js/jquery-1.11.1.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+<!--				<section data-markdown="md/00-title.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/01-md-intro.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/02-md-internet-win.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/03-m-communication.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/04-d-dev-tools.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/05-m-integration.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/06-m-frameworks.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+         -->
+
+				<section data-markdown="md/07-d-accessibility.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+	<!--
+				<section data-markdown="md/08-md-responsivity.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+			<section data-markdown="md/09-d-performance.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/10-d-internationalization.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+				<section data-markdown="md/11-m-tracking.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>
+
+        <section data-markdown="md/12-md-end.md"
+       	  data-separator="^\n\n\n"
+         data-vertical="^\n\n"
+         data-notes="^Note:"
+         ></section>-->
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: false,
+
+
+				width: 1280,
+				height: 800,
+				margin: 0,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+<script type="text/javascript">
+Reveal.addEventListener('ready', function(event) {
+	var drawChart = function(target, titles){
+		var data = [1050,1340,1400,1550, 937];
+		var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+		var horizontal = d3.scale.ordinal().domain(days).rangePoints([50,650]);
+		var vertical = d3.scale.linear().domain([0,1500]).range([550,50]);
+		var svg = d3.select(target).append("svg").attr("width", "800px").attr("height", "600px").style("background", "white");
+		var chart = svg.selectAll(".bar").data(data);
+		var chartEnter = chart.enter().append("rect")
+			.classed("bar", true)
+			.attr("x", function(d,i){ return horizontal(days[i]);})
+			.attr("y", vertical)
+			.attr("width", "80px")
+			.attr("height", function(d){ return 550 - vertical(d);})
+			.style("fill", "lightblue")
+			.style("stroke", "black");
+
+		if(titles){
+			chartEnter.append("title").text(function(d,i){
+				return days[i]+": " + d + " calories ";
+			});
+		}
+
+		var xAxis = d3.svg.axis().scale(horizontal).orient("bottom");
+		var yAxis = d3.svg.axis().scale(vertical).orient("left");
+
+		svg.append("g").attr("class", "axis").attr("transform", "translate(0,550)").call(xAxis);
+		svg.append("g").attr("class", "axis").attr("transform", "translate(50,0)").call(yAxis);
+	};
+
+	drawChart("#screen-reader-chart", false);
+	drawChart("#screen-reader-chart2", true);
+});
+</script>
+
+	</body>
+</html>
