@@ -6,6 +6,29 @@
 
 
 
+<section>
+<h1>Why?</h1>
+<iframe src="//www.slideshare.net/slideshow/embed_code/40841467" width="1280" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/a16z/mobile-is-eating-the-world-40841467" title="Mobile Is Eating the World" target="_blank">Mobile Is Eating the World</a> </strong> from <strong><a href="//www.slideshare.net/a16z" target="_blank">a16z</a></strong> </div>
+</section>
+
+
+
+<section>
+<img class="centered" src="assets/responsivity/go-away.jpg"></img>
+Note:
+... and you don't want your users ending up like that.
+</section>
+
+
+
+<section data-background="assets/responsivity/email_link.png">
+# Email fallback
+Note:
+If you know that your vis isn't perfect on mobile but you don't have time to do it right: let your users email themselves a link!
+</section>
+
+
+
 <section data-background="assets/responsivity/differences.png">
 # Desktop vs Mobile
 <h2>Touch</h2>
@@ -89,6 +112,14 @@ Note:
 
 
 
+# mouse, touch -> pointer?
+<img src="http://www.w3.org/TR/pointerevents/pointer.png"></img>
+<iframe src="http://caniuse.com/#feat=pointer"></iframe>
+Note:
+might change soon into device-agnostic 'pointer'-events, but so far only supported in internet explorer...
+
+
+
 # screen size?
 <img class="triple" src="assets/responsivity/tiny_block.png"></img>
 <img class="triple" src="assets/responsivity/tiny_block2.png"></img>
@@ -130,7 +161,32 @@ We've used bootstrap for the layout and as you can see here, every on-screen ele
 
 
 
+<section>
+# Media queries
+
+Note:
+TODO: media queries
+</section>
+
+
+
 #Responsive Web Design - Details
+
+
+
+## Debounce when redrawing
+```javascript
+   var resizeVis = _.debounce(
+      app.views.mainView.render,
+      RESIZE_REFRESH_RATE
+   );
+
+   $(window).on("resize", resizeVis)
+```
+
+Note:
+Here's a couple of details that are very useful when creating responsive visualizations. First, drawing a visualization is usually quite intense and you don't wanna kill your browser tab just because you decide to redraw the whole thing every time the user changes the screen size. That's when something like 'debounce' or 'throttle' comes in really handy. I usually use the underscore version, but there are other implementations available. 'Debounce' is pretty cool: you throw in a function (render in our case) and it makes sure that the function is only executed if a certain time has passed since its last execution. Which means that in this example here, render is called at most every RESIZE_REFRESH_RATE milliseconds.
+You can see that effect on oecdregionalwellbeing.org, too. If you resize the window it takes a short moment for all the flower visualizations to redraw.
 
 
 
@@ -148,6 +204,18 @@ We've used bootstrap for the layout and as you can see here, every on-screen ele
 
 Note:
 How the website is scaled initially especially on mobile browsers depends on your viewport-settings in the corresponding meta-tag. Usually you wanna have width equals device-width (that means the width of the page fully fills the device's width) and your initial scale being 1 (that means that the webpage isn't zoomed in or out initially). Sometimes it might even be useful to prevent people from being able to zoom the website altogether. Then you have to set "user-scalable" to "no".
+
+
+
+## disable scrolling
+```javascript
+document.ontouchstart =
+	function(e) {
+		e.preventDefault();
+	}
+```
+Note:
+If your visualization is "fullscreen" on the mobile device, you probably want to disable the scrolling effects on touch devices, so they don't collide with your vis interaction.
 
 
 
