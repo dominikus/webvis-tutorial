@@ -1,32 +1,34 @@
-<section data-background="">
-<h1>Why are there none of your projects up at... </h1>
-<h2>Flowingdata</h2>
-<h2>infosthetics</h2>
-<h2>boing boing</h2>
-<h2>visualcomplexity</h2>
-
-Let's fix that.
-
-</section>
-
-
-
 <section data-background="http://i0.kym-cdn.com/photos/images/original/000/421/458/6ca.gif">
 
 </section>
 
 
 
+<section class="large" data-background="">
+<h1>Why aren't there more data vis research projects up at... </h1>
+<h2>Flowingdata</h2>
+<h2>infosthetics</h2>
+<h2>boing boing</h2>
+<h2>visualcomplexity</h2>
+<br>
+<em>Let's fix that.</em>
+
+</section>
+
+
+
+
 <section data-background="" class="todo">
-<h1>How the first few seconds shape UX</h1>
-Stats about site visit durations
+<h1>How the first few seconds shape user experience</h1>
+<iframe src="http://www.nngroup.com/articles/how-long-do-users-stay-on-web-pages/" class="full"></iframe>
+Note:
 Situation: fresh visitor who knows nothing! (no expert users)
 </section>
 
 
 
 <section data-background="" class="todo">
-<h2>Techniques to draw people in</h2>
+<h3>Techniques to draw people in</h3>
 <h1>Where do you fit in?</h1>
 <iframe class="full" src="http://www.bbc.co.uk/news/world-15391515"></iframe>
 </section>
@@ -34,7 +36,7 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="" class="todo">
-<h2>Techniques to draw people in</h2>
+<h3>Techniques to draw people in</h3>
 <h1>Stepwise revelation</h1>
 <iframe class="full" src="http://labs.tageswoche.ch/geschichten/fcb-fankarte/"></iframe>
 </section>
@@ -42,9 +44,8 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="" class="todo">
-<h2>Techniques to draw people in</h2>
+<h3>Techniques to draw people in</h3>
 <h1>Scrollytelling</h1>
-<a href="http://www.angelamorelli.com/water/">http://www.angelamorelli.com/water/</a>
 <iframe class="full" src="http://www.angelamorelli.com/water/"></iframe>
 </section>
 
@@ -57,15 +58,15 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-<section data-background="assets/intro/eigenfactor.png" class="todo">
-<h2>Techniques to draw people in</h2>
+<section data-background="assets/intro/eigenfactor.png" class="todo light">
+<h3>Techniques to draw people in</h3>
 <h1>Seductive depth and complexity</h1>
 </section>
 
 
 
 <section data-background="" class="todo">
-<h2>Techniques to draw people in</h2>
+<h3>Techniques to draw people in</h3>
 <h1>Mix of exploration and explanation</h1>
 <iframe src="http://worrydream.com/#!/ScientificCommunicationAsSequentialArt" class="full"></iframe>
 </section>
@@ -73,9 +74,9 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-<section data-background="">
+<section data-background="" >
 <h2>Techniques to push people away</h2>
-<img class="full-height" src="assets/responsivity/go-away.jpg">
+<img class="full-height" src="assets/responsivity/go-away.jpg" style="margin: 0 auto !important;">
 </section>
 
 
@@ -90,7 +91,6 @@ Situation: fresh visitor who knows nothing! (no expert users)
 <section data-background="">
 <h2>Techniques to push people away</h2>
 <h1>False promises</h1>
-<a href="http://beta.thesustainabilitysudoku.info/">http://beta.thesustainabilitysudoku.info/</a>
 <iframe class="full" src="http://beta.thesustainabilitysudoku.info/"></iframe>
 </section>
 
@@ -103,35 +103,34 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="">
-<h1>Principles</h1>
-Does it draw people in?
-Is it personal?
-"Why should I care?"
-Is it shareable?
-Is it findable?
-Is it enjoyable to use?
+<h1>Checklist</h1>
+<h2>Does it draw you in?</h2>
+<h2>"Why should I care?"</h2>
+<h2>Is it shareable?</h2>
+<h2>Is it findable?</h2>
+<h2>Is it enjoyable to use?</h2>
+<h2>Is it informative?</h2>
 </section>
-
-
 
 
 
 <section data-background="">
 <h1>How I won the lottery</h1>
-<iframe class="full" src="http://youtu.be/l_F9jxsfGCw?t=22s"></iframe>
+<iframe class="full" src="//www.youtube.com/embed/l_F9jxsfGCw?t=22s"></iframe>
+</section>
+
+
+
+<section data-background="" class="todo ">
+<h1>Press kit</h1>
+<a href="http://www.dropbox.com/sh/fnef9dl17zjhxqv/byBy9_40Wu">Selfiecity dropbox</a>
 </section>
 
 
 
 
-<section data-background="" class="todo">
-<h1>Press kit / PR</h1>
-</section>
-
-
-
-<section data-background="" class="todo">
-<h1>Overview of tutorial elements:</h1>
+<section data-background="" class="todo large">
+<h1>Upcoming sections:</h1>
 <h2>
 	Web development tools
 </h2>

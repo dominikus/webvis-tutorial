@@ -1,10 +1,11 @@
 * {
   font-family: "Avenir Next", Arial, sans !important;
   font-weight: 400 !important;
-  line-height: 1.3; }
+  line-height: 1.3;
+  box-shadow: none !important; }
 
 body {
-  background: #000; }
+  background: #000 url("../assets/bg.png") !important; }
 
 section * {
   text-align: left; }
@@ -17,22 +18,51 @@ h1 {
   font-size: 1.5em !important; }
 
 h2, h3 {
-  font-weight: normal !important; }
+  font-weight: 400 !important; }
+
+h3, h4, h5 {
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  color: #BBB !important; }
 
 .chapter h1 {
-  font-size: 2em !important;
-  text-align: center;
-  margin: auto; }
+  font-size: 3em !important; }
+.chapter h2, .chapter h3, .chapter h4, .chapter h5 {
+  font-size: 2em !important; }
+
+.large * {
+  font-size: 1.5em !important; }
+.large h1 {
+  font-size: 3em !important; }
+.large h2, .large h3, .large h4, .large h5 {
+  font-size: 2em !important; }
+
+.light * {
+  color: #333 !important; }
+
+.iframe-link {
+  font-size: 0.8em !important; }
 
 iframe {
   display: block;
-  width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   min-height: 300px;
-  margin: 1em 0 !important; }
+  margin: 1em 0 !important;
+  background: #FFF; }
 
 img {
   border: none !important;
   background: transparent !important; }
+
+ul {
+  display: block !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important; }
+  ul li {
+    margin: 1em 0 !important;
+    padding: 0 !important; }
 
 .full {
   width: 100%;
@@ -51,11 +81,15 @@ img {
   width: 1280px;
   margin: 0 auto; }
 
-pre {
+pre, code, code span {
   font-family: Consolas, Monaco, monospace !important;
   font-size: 24px !important;
+  background: none !important; }
+
+pre, code {
   margin: 0 !important;
   padding: 0 !important;
-  display: block; }
+  display: block;
+  background: none; }
 
 /*# sourceMappingURL=overrides.css.map */

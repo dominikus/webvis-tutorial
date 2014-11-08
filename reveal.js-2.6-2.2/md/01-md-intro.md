@@ -14,11 +14,10 @@ I'm Dominikus Baur and I do data visualizations and mobile interaction design he
 
 
 <section data-background="assets/about_me_projects.png">
-## Moritz Stefaner
+# Moritz Stefaner
 
 <iframe style="height:600px;" src="http://truth-and-beauty.net/about"></iframe>
-
-<h3 class="bottom">http://truth-and-beauty.net — <a href="http://twitter.com/moritz_stefaner">@moritz_stefaner</a></h3>
+<h3 class="bottom"><a href="http://twitter.com/moritz_stefaner">@moritz_stefaner</a></h3>
 
 Note:
 
@@ -26,8 +25,15 @@ Note:
 
 
 
+<section data-background="assets/about_me_projects.png">
+<h1>Data Stories</h1>
+<iframe class="full" src="http://datastori.es"></iframe>
+</section>
+
+
+
 <section data-background="">
-<a>http://oecdregionalwellbeing.org</a>
+<h1>OECD Regional Well-Being</h1>
 <iframe class="full" src="http://oecdregionalwellbeing.org"></iframe>
 Note:
 </section>
@@ -35,7 +41,32 @@ Note:
 
 
 <section data-background="">
-<a>http://selfiecity.net</a>
+<h1>Selfiecity</h1>
 <iframe class="full" src="http://selfiecity.net"></iframe>
+Note:
+</section>
+
+
+
+<section data-background="">
+<h1>Selfiecity</h1>
+<iframe class="full" src="http://www.wired.com/2014/02/explore-world-selfies-new-data-visualization-tool/"></iframe>
+Note:
+</section>
+
+
+
+<section data-background="">
+<h1>Selfiecity</h1>
+<iframe class="full" src="http://news.nationalgeographic.com/news/2014/02/140226-selfie-photography-word-of-the-year-sociology-digital/"></iframe>
+Note:
+</section>
+
+
+
+
+<section data-background="">
+<h1>Selfiecity</h1>
+<iframe class="full" src="http://www.elle.com/news/culture/grown-up-men-take-more-selfies-than-grown-up-women"></iframe>
 Note:
 </section>

@@ -163,12 +163,13 @@
 		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$("iframe").each(function(i,x){
-					var el = $(x);
-					var link = el.attr("src") || el.attr("data-src");
-					$("<a target='_blank' href='"+link+"''>"+link+"</a>").insertBefore(el);
-				});
-
+				Reveal.addEventListener( 'ready', function( event ) {
+    			$("iframe").each(function(i,x){
+						var el = $(x);
+						var link = el.attr("src") || el.attr("data-src");
+						$("<a target='_blank' class='iframe-link' href='"+link+"''>"+link+"</a>").insertBefore(el);
+					});
+				} );
 			});
 		</script>
 
