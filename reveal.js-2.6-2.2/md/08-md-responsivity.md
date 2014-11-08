@@ -14,7 +14,7 @@
 
 
 <section>
-<img class="centered" src="assets/responsivity/go-away.jpg"></img>
+<img class="full-height" src="assets/responsivity/go-away.jpg"></img>
 Note:
 ... and you don't want your users ending up like that.
 </section>

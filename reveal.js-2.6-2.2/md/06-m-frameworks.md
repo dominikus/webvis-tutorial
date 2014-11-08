@@ -34,10 +34,18 @@ Note:
 
 
 
-<section data-background="">
+<section data-background="" class="large">
 <h1>Tips</h1>
-<h2>Spend enought time to figure out URL structure, and what the URL-relevant states are</h2>
+<h2>Spend enough time to figure out the URL structure, and what the URL-relevant states are</h2>
+<h2>Optional parameters, defaults</h2>
+<h2>Granularity</h2>
 <h2>Asynchronicity</h2>
+</section>
+
+
+
+<section data-background="">
+<img src="assets/integration/excellence-map.png">
 </section>
 
 
@@ -47,13 +55,6 @@ Note:
 <iframe class="full" src="http://localhost:8001"></iframe>
 Note:
 </section>
-
-
-
-<section data-background="">
-<img src="assets/integration/excellence-map.png">
-</section>
-
 
 
 

@@ -25,6 +25,18 @@ h3, h4, h5 {
   font-weight: 400 !important;
   color: #BBB !important; }
 
+.attribution {
+  position: absolute !important;
+  bottom: 0px !important;
+  font-size: 0.85em !important; }
+
+.todo {
+  color: #333 !important;
+  padding: 1em !important;
+  float: left;
+  font-weight: 600 !important;
+  background: #e6ff85 !important; }
+
 .chapter h1 {
   font-size: 3em !important; }
 .chapter h2, .chapter h3, .chapter h4, .chapter h5 {
@@ -45,11 +57,12 @@ h3, h4, h5 {
 
 iframe {
   display: block;
-  width: 100% !important;
-  max-width: 100% !important;
   min-height: 300px;
   margin: 1em 0 !important;
   background: #FFF; }
+  iframe.full {
+    width: 100% !important;
+    max-width: 100% !important; }
 
 img {
   border: none !important;
