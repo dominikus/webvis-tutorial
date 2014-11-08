@@ -1,10 +1,11 @@
-# Frameworks
+<section data-background="" class="chapter">
+<h1>Frameworks</h1>
+</section>
 
 
 
 <section data-background="">
 # Single page applications
-<a>http://en.wikipedia.org/wiki/Single-page_application</a>
 <iframe class="full" src="http://en.wikipedia.org/wiki/Single-page_application"></iframe>
 Note:
 </section>
@@ -12,7 +13,6 @@ Note:
 
 
 <section data-background="">
-<a>http://backbonejs.org</a>
 <iframe class="full" src="http://backbonejs.org"></iframe>
 Note:
 </section>
@@ -21,7 +21,6 @@ Note:
 
 
 <section data-background="">
-<a>http://underscorejs.org/</a>
 <iframe class="full" src="http://underscorejs.org/"></iframe>
 Note:
 </section>
@@ -29,9 +28,16 @@ Note:
 
 
 <section data-background="">
-<a>http://marionettejs.com/</a>
-<iframe class="full" src="http://marionettejs.com/"></iframe>
-Note:
+<h1>Location hash</h1>
+<img src="assets/integration/backbone-hash.png">
+</section>
+
+
+
+<section data-background="">
+<h1>Tips</h1>
+<h2>Spend enought time to figure out URL structure, and what the URL-relevant states are</h2>
+<h2>Asynchronicity</h2>
 </section>
 
 
@@ -45,21 +51,25 @@ Note:
 
 
 <section data-background="">
-<h1>Many others</h1>
-<ul>
-	<li>
-		http://emberjs.com/
-	</li>
-	<li>
-		https://angularjs.org/
-	</li>
-	<li>
-		http://facebook.github.io/react/
-	</li>
-	<li>
-		…
-	</li>
-</ul>
+<img src="assets/integration/excellence-map.png">
+</section>
 
-<p>Virtual DOM</p>
+
+
+
+<section data-background="">
+<iframe class="full" src="http://marionettejs.com/"></iframe>
+Note:
+</section>
+
+
+
+<section data-background="" class="large">
+<h1>Many others</h1>
+<h2>http://emberjs.com/</h2>
+<h2>https://angularjs.org/</h2>
+<h2>http://facebook.github.io/react/</h2>
+
+Note:
+Virtual DOM
 </section>

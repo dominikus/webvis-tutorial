@@ -60,11 +60,11 @@
          data-notes="^Note:"
          ></section>
 
-				<section data-markdown="md/03-m-communication.md"
+<!-- 				<section data-markdown="md/03-m-communication.md"
        	  data-separator="^\n\n\n"
          data-vertical="^\n\n"
          data-notes="^Note:"
-         ></section>
+         ></section> -->
 
 				<section data-markdown="md/04-d-dev-tools.md"
        	  data-separator="^\n\n\n"
@@ -158,6 +158,19 @@
 				]
 			});
 
+		</script>
+
+		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				Reveal.addEventListener( 'ready', function( event ) {
+    			$("iframe").each(function(i,x){
+						var el = $(x);
+						var link = el.attr("src") || el.attr("data-src");
+						$("<a target='_blank' class='iframe-link' href='"+link+"''>"+link+"</a>").insertBefore(el);
+					});
+				} );
+			});
 		</script>
 
 	</body>

@@ -322,11 +322,20 @@ var Reveal = (function(){
 		// Updates the presentation to match the current configuration values
 		configure();
 
+
+		// edit mo: move all iframe src to data-src
+		toArray( document.querySelectorAll( 'iframe' ) ).forEach( function( el ) {
+			el.setAttribute( 'data-src', el.getAttribute( 'src' ) );
+			el.removeAttribute( 'src' );
+
+		});
+
 		// Read the initial hash
 		readURL();
 
 		// Update all backgrounds
 		updateBackground( true );
+
 
 		// Notify listeners that the presentation is ready but use a 1ms
 		// timeout to ensure it's not fired synchronously after #initialize()
@@ -2108,6 +2117,14 @@ var Reveal = (function(){
 			// iframe embeds
 			toArray( slide.querySelectorAll( 'iframe' ) ).forEach( function( el ) {
 				el.contentWindow.postMessage( 'slide:start', '*' );
+			});
+
+			// edit mo:
+
+			// lazy load iframes
+			toArray( slide.querySelectorAll( 'iframe[data-src]' ) ).forEach( function( el ) {
+				el.setAttribute( 'src', el.getAttribute( 'data-src' ) );
+				el.removeAttribute( 'data-src' );
 			});
 
 			// YouTube embeds

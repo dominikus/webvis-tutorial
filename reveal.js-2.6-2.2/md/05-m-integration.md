@@ -1,4 +1,9 @@
-# Integration
+
+
+<section data-background="" class="todo">
+<h1>Integration</h1>
+</section>
+
 
 
 
@@ -10,8 +15,13 @@
 
 
 <section data-background="" class="todo">
-<h1>URL routing</h1>
+<h1>Pinterest</h1>
+</section>
 
+
+
+<section data-background="" class="todo">
+<h1>URL routing</h1>
 </section>
 
 
@@ -21,13 +31,14 @@
 <h1>Social sharing</h1>
 
 <img src="assets/integration/sharing.png">
-
+<br><br>
 <pre>
+```
 $('p.tweetable', el).on "mouseover", ()->
 	text = $(@).attr("data-tweet-text") || $(@).text()
 	text = 'Did you know? ' + text + ' How about your region?'
 	openSharingPopup(text)
-
+```
 </pre>
 
 </section>
@@ -53,7 +64,6 @@ $('p.tweetable', el).on "mouseover", ()->
 
 
 <section data-background="">
-<a>http://oecdregionalwellbeing.org</a>
 <iframe class="full" src="http://oecdregionalwellbeing.org"></iframe>
 Note:
 </section>
@@ -61,7 +71,6 @@ Note:
 
 
 <section data-background="">
-<a>http://selfiecity.net</a>
 <iframe class="full" src="http://selfiecity.net"></iframe>
 Note:
 </section>
