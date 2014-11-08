@@ -1,12 +1,4 @@
 <section data-background="http://i0.kym-cdn.com/photos/images/original/000/421/458/6ca.gif">
-# How?
-
-</section>
-
-
-
-<section data-background="">
-<img class="full-height" src="assets/go-away.jpg">
 
 </section>
 
@@ -47,4 +39,12 @@
 
 <section data-background="" class="todo">
 <h1>Be a good web citizen</h1>
+</section>
+
+
+
+
+<section data-background="">
+<h1>How I won the lottery</h1>
+<iframe class="full" src="http://youtu.be/l_F9jxsfGCw?t=22s"></iframe>
 </section>
