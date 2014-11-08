@@ -29,11 +29,17 @@ Note:
 
 
 <section data-background="">
-<a>http://marionettejs.com/</a>
-<iframe class="full" src="http://marionettejs.com/"></iframe>
-Note:
+<h1>Location hash</h1>
+<img src="assets/integration/backbone-hash.png">
 </section>
 
+
+
+<section data-background="">
+<h1>Tips</h1>
+Spend enought time to figure out URL structure, and what the URL-relevant states are
+Asynchronocity
+</section>
 
 
 <section data-background="">
@@ -41,6 +47,22 @@ Note:
 <iframe class="full" src="http://localhost:8001"></iframe>
 Note:
 </section>
+
+
+
+<section data-background="">
+<img src="assets/integration/excellence-map.png">
+</section>
+
+
+
+
+<section data-background="">
+<a>http://marionettejs.com/</a>
+<iframe class="full" src="http://marionettejs.com/"></iframe>
+Note:
+</section>
+
 
 
 

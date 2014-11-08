@@ -17,16 +17,10 @@ Let's fix that.
 
 
 
-
-<section data-background="">
-<a href="http://beta.thesustainabilitysudoku.info/">http://beta.thesustainabilitysudoku.info/</a>
-<iframe class="full" src="http://beta.thesustainabilitysudoku.info/"></iframe>
-</section>
-
-
-
 <section data-background="" class="todo">
 <h1>How the first few seconds shape UX</h1>
+Stats about site visit durations
+Situation: fresh visitor who knows nothing! (no expert users)
 </section>
 
 
@@ -42,7 +36,7 @@ Let's fix that.
 <section data-background="" class="todo">
 <h2>Techniques to draw people in</h2>
 <h1>Stepwise revelation</h1>
-<iframe class="full" src="https://www.tageswoche.ch/de/2014_15/sport/655795/"></iframe>
+<iframe class="full" src="http://labs.tageswoche.ch/geschichten/fcb-fankarte/"></iframe>
 </section>
 
 
@@ -70,19 +64,55 @@ Let's fix that.
 
 
 
+<section data-background="" class="todo">
+<h2>Techniques to draw people in</h2>
+<h1>Mix of exploration and explanation</h1>
+<iframe src="http://worrydream.com/#!/ScientificCommunicationAsSequentialArt" class="full"></iframe>
+</section>
+
+
+
+
 <section data-background="">
 <h2>Techniques to push people away</h2>
-<img class="full-height" src="assets/go-away.jpg">
+<img class="full-height" src="assets/responsivity/go-away.jpg">
+</section>
 
+
+
+
+<section data-background="">
+<h2>noch ein negativ Beispiel</h2>
+</section>
+
+
+
+<section data-background="">
+<h2>Techniques to push people away</h2>
+<h1>False promises</h1>
+<a href="http://beta.thesustainabilitysudoku.info/">http://beta.thesustainabilitysudoku.info/</a>
+<iframe class="full" src="http://beta.thesustainabilitysudoku.info/"></iframe>
 </section>
 
 
 
 <section data-background="" class="todo">
-<h2>Techniques to push people away</h2>
-<a href="http://www-958.ibm.com/software/analytics/manyeyes/">http://www-958.ibm.com/software/analytics/manyeyes/</a>
-<iframe class="full" src="">http://www-958.ibm.com/software/analytics/manyeyes/</iframe>
+<h1>Help</h1>
 </section>
+
+
+
+<section data-background="">
+<h1>Principles</h1>
+Does it draw people in?
+Is it personal?
+"Why should I care?"
+Is it shareable?
+Is it findable?
+Is it enjoyable to use?
+</section>
+
+
 
 
 
@@ -90,3 +120,44 @@ Let's fix that.
 <h1>How I won the lottery</h1>
 <iframe class="full" src="http://youtu.be/l_F9jxsfGCw?t=22s"></iframe>
 </section>
+
+
+
+
+<section data-background="" class="todo">
+<h1>Press kit / PR</h1>
+</section>
+
+
+
+<section data-background="" class="todo">
+<h1>Overview of tutorial elements:</h1>
+<h2>
+	Web development tools
+</h2>
+<h2>
+	Integration - how to make visualizations shareable, findable,...
+</h2>
+<h2>
+	Accessibility
+</h2>
+<h2>
+	Responsiveness
+</h2>
+<h2>
+	Performance
+</h2>
+<h2>
+	Internationalization
+</h2>
+<h2>
+	Tracking
+</h2>
+
+</section>
+
+
+
+
+
+

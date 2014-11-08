@@ -162,7 +162,16 @@ We've used bootstrap for the layout and as you can see here, every on-screen ele
 
 
 <section>
+
 # Media queries
+```css
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+```
+</pre>
 
 Note:
 TODO: media queries
