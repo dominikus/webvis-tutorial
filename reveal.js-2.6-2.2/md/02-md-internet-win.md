@@ -18,11 +18,20 @@
 
 
 
-<section data-background="" class="large">
+<section data-background="" class="">
 <h1>How to create a successful website</h1>
 <h2 class="fragment">Short answer: It's a bit of a mystery.</h2>
+
+<iframe class="full fragment" src="//www.youtube.com/embed/l_F9jxsfGCw?t=22s" style="height: 500px;"></iframe>
+</section>
+
+
+
+<section data-background="" class="large">
+<h1>How to create a successful website</h1>
 <h2 class="fragment">Long answer: There's a few things that usually work better than others.</h2>
 <br><br>
+<h2 class="fragment">Make it web-native.</h2>
 <h2 class="fragment">The last 20% are the second 80%.</h2>
 </section>
 
@@ -142,10 +151,6 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-<section data-background="">
-<h1>How I won the lottery</h1>
-<iframe class="full" src="//www.youtube.com/embed/l_F9jxsfGCw?t=22s"></iframe>
-</section>
 
 
 
