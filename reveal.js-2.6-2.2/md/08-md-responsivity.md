@@ -1,5 +1,12 @@
-<section data-background="" id="responsivity">
-<h1>Responsivity</h1>
+<section class="chapter light" data-background="assets/responsivity/reponsiveness.jpg" id="responsivity">
+  <h1>Reponsiveness</h1>
+  <div class="credit"><a href="https://www.flickr.com/photos/aglet/34609812/in/photolist-4FhiiK-5E6kCz-9fAdZr-pv6iFz-8Reb3T-7WK7D5-6QYkqU-4XJsbd-hTqpZN-pjX2qG-acLQJX-cfWG8y-7WZs9G-7ov5AM-5YsSfx-5k5nj-5coZnS-44oix-44ojh-44ohU-4eijeh-xJbZs-7fBqSX-TdN2p-5vDSaf-haKeJ-7GGvQE-7WK82G-FnyZM-dieQmw-2htBfQ-MWkb-evSnQ-8DoQ4u-de6ESp-aqhkkC-4UEJWX-bkFr2Q-eAknd7-8gHZg9-7i5W9v-5hvJVB-6tyXAz-8Agzhj-6SKcMb-eAhdST-56rhEz-4pa1sy-5SAFiV-9msxAf">Image credit</a></div>
+</section>
+
+
+
+<section data-background="" >
+
 <iframe style="width: 800px; float: right; height: 600px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 <iframe style="width: 400px; height: 600px; float: left;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 </section>

@@ -1,4 +1,4 @@
-<section data-background="" class="chapter" id="integration">
+<section data-background="http://i.imgur.com/bfW5FSr.jpg" class="chapter" id="integration">
 <h1 >Integration</h1>
 </section>
 

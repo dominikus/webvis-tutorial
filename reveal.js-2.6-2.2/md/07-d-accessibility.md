@@ -1,4 +1,4 @@
-<section class="chapter" id="accessibility">
+<section class="chapter" id="accessibility" data-background="https://farm4.staticflickr.com/3497/3241885878_62c09f78bd_b.jpg">
 <h1>Accessibility</h1>
 </section>
 
