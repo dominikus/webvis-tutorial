@@ -27,18 +27,6 @@ module.exports = (grunt) ->
 						# insert Facebook app id
 						"FB_APP_ID": "_"
 
-		"sftp-deploy":
-			default:
-				auth:
-					host: 'starling.columba.uberspace.de'
-					port: 22,
-					authKey: 'key1'
-
-				src: 'dist'
-				dest: '/var/www/virtual/starling/html/wef/transformation-maps/'
-				exclusions: ['.sass-cache']
-				progress: true
-
 		## watch
 		watch:
 			options:
@@ -91,7 +79,7 @@ module.exports = (grunt) ->
 		connect:
 			default:
 				options:
-					port: 8000
+					port: 8001
 					base: './<%= grunt.config.get("environment") %>/'
 
 		# dist

@@ -9,7 +9,6 @@ class App extends Backbone.Router
 		'*path': 'pageChange'
 
 	initialize: ()->
-		@views.titleBar = new TitleBar()
 		Backbone.history.start()
 
 	pageChange: (path)->
