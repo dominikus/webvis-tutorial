@@ -27,8 +27,6 @@ In regular web development you have these three minimum building blocks: HTML fo
 
 ## github (version management)
 
-## githooks (web deployment)
-
 Note:
 ...and our process.
 
@@ -465,3 +463,77 @@ module.exports = (grunt) ->
 		'watch'
 	])
 ```
+
+
+
+# Grunt - demo
+
+
+
+# bower
+<iframe src="http://bower.io" class="full"></iframe>
+Note:
+finally, the last piece of the stack: the package manager
+so, why a package manager for the web?
+for all the libraries and frameworks out there that you might want to add to your project (hear more about that later)
+basics like jquery, d3.js, backbone, helpers like underscore or lo-dash or even your own libraries. managing that manually, including versions, is a pain!
+
+
+
+# bower.json
+```json
+{
+  "name": "OECD regional well-being",
+  "version": "1.0.0",
+  "homepage": "http://oecdregionalwellbeing.org",
+  "authors": [
+    "Moritz Stefaner <moritz@stefaner.eu>"
+  ],
+  "license": "None",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "d3": "~3.4.1",
+    "jquery": "1.9.1",
+    "backbone": "~1.1.2",
+    "bootstrap": "~3.1.1"
+  }
+}
+```
+
+
+
+# Grunt - bower_concat
+```
+	grunt.initConfig(
+		# ...
+		# concatenates libraries from bower
+		bower_concat:
+			default:
+				dest: '<%= grunt.config.get("environment") %>/js/libs.js'
+				dependencies:
+					'backbone': 'jquery'
+```
+
+
+
+# bower - Demo
+Note:
+add new library with >bower install hammerjs --save
+
+
+
+# git
+<iframe src="http://git-scm.com" class="full"></iframe>
+
+
+
+# github
+<iframe src="https://octodex.github.com" class="full"></iframe>
