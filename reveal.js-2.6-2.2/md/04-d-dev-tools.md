@@ -1,4 +1,7 @@
-# Development tools
+<section class="chapter">
+<h1>Development tools</h1>
+
+</section>
 
 
 
@@ -74,8 +77,8 @@ null         ==   undefined     // true
 
 
 # Coffeescript
-* Only explicit global variables
-```cofeescript
+## Only explicit global variables
+```coffeescript
 window.globalVar = 14
 ```
 
@@ -105,6 +108,7 @@ class Animal
 	walk: () =>
 		position += speed
 ```
+
 
 
 

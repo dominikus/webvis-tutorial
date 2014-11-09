@@ -1,33 +1,31 @@
-
-
-<section data-background="" class="todo">
-<h1>Integration</h1>
+<section data-background="" class="chapter">
+<h1 >Integration</h1>
 </section>
 
 
 
-
-<section data-background="" class="todo">
+<section data-background="" class="">
 <h1>Findability</h1>
-
+<p class="todo">Google meta tags etc</p>
 </section>
 
 
 
-<section data-background="" class="todo">
+<section data-background="" class="">
 <h1>Pinterest</h1>
+<p class="todo">Add an img</p>
 </section>
 
 
 
-<section data-background="" class="todo">
+<section data-background="" class="">
 <h1>URL routing</h1>
+<p class="todo">Add description</p>
 </section>
 
 
 
-
-<section data-background="" class="todo">
+<section data-background="" class="">
 <h1>Social sharing</h1>
 
 <img src="assets/integration/sharing.png">
@@ -45,7 +43,7 @@ $('p.tweetable', el).on "mouseover", ()->
 
 
 
-<section class="todo">
+<section class="">
 <h1>Sentence level sharing at the guardian</h1>
 <!-- <a href="https://twitter.com/wblau/status/529713139961827329/photo/1" data-preview-link>test</a> -->
 <img class="full-width" src="https://pbs.twimg.com/media/B1nrSy6IIAAasnZ.png">
@@ -54,7 +52,7 @@ $('p.tweetable', el).on "mouseover", ()->
 
 
 
-<section class="todo">
+<section class="">
 <h1>Meta tag generator</h1>
 <iframe class="full" src="http://www.metataggenerator.org/open-graph-meta-tags/"></iframe>
 

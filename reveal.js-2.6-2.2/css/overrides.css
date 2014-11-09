@@ -25,6 +25,21 @@ h3, h4, h5 {
   font-weight: 400 !important;
   color: #BBB !important; }
 
+.attribution {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 10px !important;
+  text-align: right;
+  max-width: 20%; }
+
+.todo {
+  color: #333 !important;
+  padding: 1em !important;
+  float: left;
+  font-weight: 600 !important;
+  background: #e6ff85 !important; }
+
 .chapter h1 {
   font-size: 3em !important; }
 .chapter h2, .chapter h3, .chapter h4, .chapter h5 {
@@ -45,11 +60,12 @@ h3, h4, h5 {
 
 iframe {
   display: block;
-  width: 100% !important;
-  max-width: 100% !important;
   min-height: 300px;
   margin: 1em 0 !important;
   background: #FFF; }
+  iframe.full {
+    width: 100% !important;
+    max-width: 100% !important; }
 
 img {
   border: none !important;
@@ -90,6 +106,23 @@ pre, code {
   margin: 0 !important;
   padding: 0 !important;
   display: block;
-  background: none; }
+  background: none;
+  max-height: 95% !important; }
+
+.large pre, .large code, .large code span {
+  font-size: 36px !important; }
+.large .triple li {
+  font-size: 0.75em !important; }
+
+.triple {
+  width: 30%;
+  float: left;
+  margin-right: 1% !important; }
+
+.pro {
+  color: #c3ffbf; }
+
+.con {
+  color: #feb0b3; }
 
 /*# sourceMappingURL=overrides.css.map */
