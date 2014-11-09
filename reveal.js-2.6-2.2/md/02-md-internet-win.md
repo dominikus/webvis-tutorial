@@ -20,8 +20,10 @@
 
 <section data-background="" class="large">
 <h1>How to create a successful website</h1>
-<h2 class="fragment">Short answer: It's a bit of a mystery</h2>
+<h2 class="fragment">Short answer: It's a bit of a mystery.</h2>
 <h2 class="fragment">Long answer: There's a few things that usually work better than others.</h2>
+<br><br>
+<h2 class="fragment">The last 20% are the second 80%.</h2>
 </section>
 
 
