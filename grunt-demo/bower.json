@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/MoritzStefaner/grunt-template",
+  "authors": [
+    "Moritz Stefaner <moritz@stefaner.eu>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "d3": "~3.4.1",
+    "jquery": "1.9.1",
+    "backbone": "~1.1.2",
+    "bootstrap": "~3.1.1"
+  }
+}

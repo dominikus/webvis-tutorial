@@ -50,9 +50,9 @@ scroll a bit further down, show comparison between coffee and javascript.
 
 
 # Loaded topic: Google 'coffeescript opinions'
-<iframe src="http://oscargodson.com/posts/why-i-dont-use-coffeescript.html" height="200px"></iframe>
-<iframe src="https://github.com/raganwald-deprecated/homoiconic/blob/master/2011/12/jargon.md" height="200px"></iframe>
-<iframe src="http://www.walkercoderanger.com/blog/2014/03/coffeescript-isnt-the-answer/" height="200px"></iframe>
+<iframe src="http://oscargodson.com/posts/why-i-dont-use-coffeescript.html" class="triple"></iframe>
+<iframe src="https://github.com/raganwald-deprecated/homoiconic/blob/master/2011/12/jargon.md" class="triple"></iframe>
+<iframe src="http://www.walkercoderanger.com/blog/2014/03/coffeescript-isnt-the-answer/" class="triple"></iframe>
 
 
 
@@ -209,17 +209,37 @@ Paul Irish, developer advocate for Chrome, produces lots of tutorials and helpfu
 
 
 # Chrome DevTools
-<iframe src="https://developer.chrome.com/devtools/docs/videos" class="full"></iframe>
+<iframe src="http://developer.chrome.com/devtools/docs/videos" class="full"></iframe>
 Note:
 show chrome devtools
 explain tabs
 show mobile support
 
 
+
 # Grunt
 <iframe src="http://gruntjs.com" class="full"></iframe>
 Note:
 grunt: a task runner - automation for everything
+
+
+
+#Project directory structure
+##Source code is in /src
+##Development version in /dev
+##Distribution version in /dist
+```
+bower.json
+/dev
+/dist
+Gruntfile.coffee
+package.json
+/src
+	/assets
+	/coffee
+	/sass
+	index.html
+```
 
 
 
@@ -242,13 +262,13 @@ grunt: a task runner - automation for everything
 
 # Grunt
 ## Gruntfile.coffee
-<pre><code class="coffeescript">
+```coffeescript
 module.exports = (grunt) ->
-	## project definition
+	## project definition:
 	grunt.initConfig(
 
 		pkg: grunt.file.readJSON('package.json')
-
+		# configure plugins:
 		uglify:
 			options:
 				banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
@@ -257,19 +277,18 @@ module.exports = (grunt) ->
 				dest: 'build/<%= pkg.name %>.min.js'
 	)
 
-	## load plugins
+	## load plugins:
 	require('load-grunt-tasks')(grunt)
 
-	## tasks
+	## define tasks:
 	grunt.registerTask('default', ['uglify'])
-</code></pre>
+```
 
 
 
-<section>
-<h1>Grunt - useful plugins</h1>
-<h3>config</h3>
-<pre><code class="coffeescript">
+# Grunt - useful plugins
+### config
+```coffeescript
 	grunt.initConfig(
 		# ...
 		# sets a configuration
@@ -287,13 +306,11 @@ module.exports = (grunt) ->
 	)
 	# ...
 	grunt.registerTask('dev', ['config:dev'])
-</code></pre>
-</section>
+```
 
 
 
 # Grunt - useful plugins
-
 ### coffee
 ```coffeescript
 	grunt.initConfig(
@@ -307,21 +324,144 @@ module.exports = (grunt) ->
 					'<%= grunt.config.get("environment") %>/js/main.js' :
 					['src/coffee/**/*.coffee', 'src/coffee/main.coffee']
 ```
+Note:
+most plugins working with files have that parameter structure
 
 
 
 # Grunt - useful plugins
-
 ### sass
-Compiles Sass
+```coffeescript
+	grunt.initConfig(
+		# ...
+		# compiles sass
+		sass:
+			default:
+				files:
+					'<%= grunt.config.get("environment") %>/css/styles.css' :
+					['src/sass/**/*.sass']
+```
+
+
+
+
+# Grunt - useful plugins
 ### connect
-Starts a webserver
+```coffeescript
+	grunt.initConfig(
+		# ...
+		# starts a webserver
+		connect:
+			default:
+				options:
+					port: 8001
+					base: './<%= grunt.config.get("environment") %>/'
+```
+
+
+
+# Grunt - useful plugins
 ### watch
-Triggers tasks on file changes
-### clean
-Deletes files and directories
-### copy
-Copies files and directories
+```coffeescript
+	grunt.initConfig(
+		# ...
+		# triggers tasks on file changes
+		watch:
+			options:
+				livereload: true
+				spawn: false
+
+			coffee:
+				files: ['src/coffee/**/*.coffee']
+				tasks: ['coffee']
+			sass:
+				files: ['src/sass/**/*.sass']
+				tasks: ['sass']
+```
 
 
 
+# Grunt
+```coffeescript
+module.exports = (grunt) ->
+	grunt.initConfig(
+		pkg: grunt.file.readJSON('package.json')
+		config:
+			dev:
+				options:
+					variables:
+						# development mode
+						'environment': 'dev'
+			dist:
+				options:
+					variables:
+						# production mode
+						'environment': 'dist'
+		## watch
+		watch:
+			options:
+				livereload: true
+				spawn: false
+
+			bower:
+				files: ['bower_components/**/*']
+				tasks: ['bower_concat']
+
+			coffee:
+				files: ['src/coffee/**/*.coffee', 'src/coffee/main.coffee']
+				tasks: ['coffee']
+
+			copy:
+				files: ['src/**/*.html']
+				tasks: ['copy']
+
+			gruntfile:
+				files: ["Gruntfile.coffee"]
+		bower_concat:
+			default:
+				dest: '<%= grunt.config.get("environment") %>/js/libs.js'
+				dependencies:
+					'backbone': 'jquery'
+		coffee:
+			default:
+				options:
+					join: true
+				files:
+					'<%= grunt.config.get("environment") %>/js/main.js' : ['src/coffee/**/*.coffee', 'src/coffee/main.coffee']
+		connect:
+			default:
+				options:
+					port: 8001
+					base: './<%= grunt.config.get("environment") %>/'
+		# dist
+		clean:
+			default:
+				src: ['<%= grunt.config.get("environment") %>/*']
+		copy:
+			default:
+				files:
+					[
+						expand: true
+						cwd: 'src'
+						src: 'js/**/*'
+						dest: '<%= grunt.config.get("environment") %>/'
+					,
+						expand: true
+						cwd: 'src'
+						src: '**/*.html'
+						dest: '<%= grunt.config.get("environment") %>/'
+					]
+	)
+	## setup
+	require('load-grunt-tasks')(grunt)
+	## tasks
+	grunt.registerTask('dev', [
+		'config:dev'
+		'clean'
+		'copy'
+		'bower_concat'
+		'coffee'
+		'connect:default'
+		'watch'
+	])
+```
