@@ -8,17 +8,14 @@
 <h1>Findability</h1>
 
 <pre class="html"><code>
-&lt;html>
-	&lt;head>
-		&lt;style type="text/css">&lt;/style>
-	&lt;/head>
-	&lt;body>
-
-
-		&lt;script src="main.js">&lt;/style>
-
-	&lt;/body>
-&lt;/html>
+<html>
+	<head>
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<script src="main.js"></script>
+	</body>
+</html>
 
 </code>
 </pre>
@@ -28,15 +25,52 @@
 
 
 <section data-background="" class="">
-<h1>Pinterest</h1>
-<p class="todo">Add an img</p>
+<h1>Findability</h1>
+
+<pre class="html"><code>
+<html>
+	<head>
+		<title>Visualizing something</title>
+		<meta name="description" content="An interactive visualization of ...">
+		<style type="text/css"></style>
+	</head>
+	<body>
+		<h1 style="visibility: hidden;">Title of page</h1>
+		<p style="visibility: hidden;">Intro text</p>
+		<img style="visibility: hidden;" src="hero.png" />
+		<script src="main.js"></script>
+	</body>
+</html>
+
+</code>
+</pre>
+
 </section>
 
 
 
-<section data-background="" class="">
-<h1>URL routing</h1>
-<p class="todo">Add description</p>
+
+<section data-background="" class="large">
+<h1>Sharing of invidividual views</h1>
+<h2>Requires deeplinking</h2>
+<pre><code>
+# start page
+//domain.com/
+
+# custom entry point
+//domain.com/#australia
+</code></pre>
+</section>
+
+
+
+<section>
+
+<iframe src="//oecdregionalwellbeing.org"></iframe>
+Three modes of sharing: Home page, specific region, snippet level
+What people share: http://twitter.com/search?q=oecdrwb&src=typd
+
+
 </section>
 
 
@@ -59,6 +93,7 @@ $('p.tweetable', el).on "mouseover", ()->
 
 
 
+
 <section class="">
 <h1>Sentence level sharing at the guardian</h1>
 <!-- <a href="https://twitter.com/wblau/status/529713139961827329/photo/1" data-preview-link>test</a> -->
@@ -76,15 +111,12 @@ $('p.tweetable', el).on "mouseover", ()->
 
 
 
-
 <section data-background="">
-<iframe class="full" src="http://oecdregionalwellbeing.org"></iframe>
-Note:
-</section>
-
-
-
-<section data-background="">
+http://www.pinterest.com/selfiecity/selfiecity/
+<br>
 <iframe class="full" src="http://selfiecity.net"></iframe>
-Note:
 </section>
+
+
+
+

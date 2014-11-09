@@ -49,8 +49,12 @@ h3, h4, h5 {
   font-size: 1.5em !important; }
 .large h1 {
   font-size: 3em !important; }
-.large h2, .large h3, .large h4, .large h5 {
-  font-size: 2em !important; }
+.large h2 {
+  font-size: 2em !important;
+  margin-top: 2em; }
+.large h3, .large h4, .large h5 {
+  font-size: 1.4em !important;
+  margin-top: none; }
 
 .light * {
   color: #333 !important; }

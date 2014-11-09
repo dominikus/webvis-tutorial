@@ -1,4 +1,4 @@
-<section class="chapter">
+<section class="chapter" id="dev-tools">
 <h1>Development tools</h1>
 
 </section>

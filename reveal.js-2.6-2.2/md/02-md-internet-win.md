@@ -1,4 +1,4 @@
-<section data-background="http://i0.kym-cdn.com/photos/images/original/000/421/458/6ca.gif">
+<section data-background="http://i0.kym-cdn.com/photos/images/original/000/421/458/6ca.gif" id="internet-win">
 
 </section>
 
@@ -140,6 +140,10 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 <section data-background="" class=" ">
 <h1>Press kit</h1>
+<h2>Journalists today are superbusy and have very little time for their articles</h2>
+<h2>Give them ready-to-use material</h2>
+<h2>Write to individual journalists who have covered similar projects in the past</h2>
+<br><br>
 <a href="http://www.dropbox.com/sh/fnef9dl17zjhxqv/byBy9_40Wu">Selfiecity dropbox</a>
 </section>
 
