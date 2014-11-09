@@ -137,7 +137,7 @@
 
 
 				width: 1280,
-				height: 800,
+				height: 720,
 				margin: 0,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
@@ -162,15 +162,24 @@
 
 		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript">
-			$(document).ready(function(){
+
+
 				Reveal.addEventListener( 'ready', function( event ) {
-    			$("iframe").each(function(i,x){
-						var el = $(x);
-						var link = el.attr("src") || el.attr("data-src");
-						$("<a target='_blank' class='iframe-link' href='"+link+"''>"+link+"</a>").insertBefore(el);
+					$( 'p:empty' ).remove();
+
+    			$("section").each(function(i,slide){
+    				if($(slide).hasClass("stack")){
+    					return;
+    				};
+    				var container = $("<div class='iframe-link-container'></div>").prependTo($(slide));
+	    			$("iframe", $(slide)).each(function(i,x){
+							var el = $(x);
+							var link = el.attr("src") || el.attr("data-src");
+							$("<a target='_blank' class='iframe-link' href='"+link+"''>"+link+"</a>").appendTo(container);
+						});
 					});
 				} );
-			});
+
 		</script>
 
 	</body>
