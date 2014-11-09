@@ -60,9 +60,10 @@ h3, h4, h5 {
 
 iframe {
   display: block;
-  min-height: 300px;
+  min-height: 700px;
   margin: 1em 0 !important;
-  background: #FFF; }
+  background: #FFF;
+  width: 100%; }
   iframe.full {
     width: 100% !important;
     max-width: 100% !important; }

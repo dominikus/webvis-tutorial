@@ -1,4 +1,4 @@
-<section data-background="" class="chapter">
+<section data-background="" class="chapter" id="integration">
 <h1 >Integration</h1>
 </section>
 
@@ -6,7 +6,23 @@
 
 <section data-background="" class="">
 <h1>Findability</h1>
-<p class="todo">Google meta tags etc</p>
+
+<pre class="html"><code>
+&lt;html>
+	&lt;head>
+		&lt;style type="text/css">&lt;/style>
+	&lt;/head>
+	&lt;body>
+
+
+		&lt;script src="main.js">&lt;/style>
+
+	&lt;/body>
+&lt;/html>
+
+</code>
+</pre>
+
 </section>
 
 

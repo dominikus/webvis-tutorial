@@ -37,8 +37,13 @@ Note:
 <section data-background="" class="large">
 <h1>Tips</h1>
 <h2>Spend enough time to figure out the URL structure, and what the URL-relevant states are</h2>
+
 <h2>Optional parameters, defaults</h2>
 <h2>Granularity</h2>
+<h2>Change page title depending on state</h2>
+```
+window.document.title = newRegion.get("label") + "  |  OECD Regional Well-Being"
+```
 <h2>Asynchronicity</h2>
 </section>
 
