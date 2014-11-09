@@ -9,13 +9,14 @@ body
 	background: #000 url("../assets/bg.png") !important
 
 section
+	padding: 10px 10px 0 !important
 	*
 		text-align: left
 
 h1,h2,h3,h4,h5
 	font-weight: 600 !important
 	font-size: 1.2em !important
-
+	line-height: 1.3 !important
 h1
 	font-size: 1.5em !important
 
@@ -26,6 +27,10 @@ h3, h4, h5
 	font-size: 1em !important
 	font-weight: 400 !important
 	color: #BBB !important
+
+h4
+	font-size: .8em !important
+	margin: 0 0 .3em 0 !important
 
 .attribution
 	position: absolute
@@ -54,8 +59,11 @@ h3, h4, h5
 		font-size: 1.5em !important
 	h1
 		font-size: 3em !important
-	h2,h3,h4,h5
+	h2
 		font-size: 2em !important
+	h3,h4,h5
+		font-size: 1.4em !important
+		margin-top: none
 
 
 .light
@@ -64,19 +72,21 @@ h3, h4, h5
 
 .iframe-link
 	font-size: .8em !important
+	margin: 0 !important
 
 p
 	// line-height: 1.33 !important
 
 iframe
 	display: block
-	min-height: 700px
+	min-height: 650px !important
+	height: 650px !important
 	margin: 1em 0 !important
 	background: #FFF
-	width: 100%
+	width: 95%
 
 	&.full
-		width: 100% !important
+		width: 95% !important
 		max-width: 100% !important
 
 img

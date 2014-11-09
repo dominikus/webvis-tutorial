@@ -1,4 +1,4 @@
-<section data-background="" class="chapter">
+<section data-background="" class="chapter" id="frameworks">
 <h1>Frameworks</h1>
 </section>
 
@@ -38,12 +38,14 @@ Note:
 <h1>Tips</h1>
 <h2>Spend enough time to figure out the URL structure, and what the URL-relevant states are</h2>
 
-<h2>Optional parameters, defaults</h2>
+<h2>What are optional parameters, defaults</h2>
 <h2>Granularity</h2>
 <h2>Change page title depending on state</h2>
+<h4>
 ```
-window.document.title = newRegion.get("label") + "  |  OECD Regional Well-Being"
+window.document.title = newLabel + "  |  OECD Regional Well-Being"
 ```
+</h4>
 <h2>Asynchronicity</h2>
 </section>
 
@@ -51,6 +53,20 @@ window.document.title = newRegion.get("label") + "  |  OECD Regional Well-Being"
 
 <section data-background="">
 <img src="assets/integration/excellence-map.png">
+</section>
+
+
+
+<section data-background="" class="large">
+<h1>Backbone</h1>
+<h2>Models</h2>
+<h3>Store data in a structured form</h3>
+<h2>Collections</h2>
+<h3>Lists of models with lots of helpers</h3>
+<h2>Views</h2>
+<h3>Display / modify models, provide user interface</h3>
+<h2>Router</h2>
+<h3>Manages application state, URL routing</h3>
 </section>
 
 

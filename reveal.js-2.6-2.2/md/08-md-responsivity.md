@@ -1,4 +1,4 @@
-<section data-background="">
+<section data-background="" id="responsivity">
 <h1>Responsivity</h1>
 <iframe style="width: 800px; float: right; height: 700px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 <iframe style="width: 400px; height: 700px; float: left;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
@@ -161,7 +161,7 @@ We've used bootstrap for the layout and as you can see here, every on-screen ele
 
 
 
-<section>
+<section class="large">
 
 # Media queries
 ```css
@@ -179,23 +179,49 @@ TODO: media queries
 
 
 
-#Responsive Web Design - Details
+
+<section class="chapter">
+<h1>Responsive Web Design - Details</h1>
+</section>
 
 
 
-## Debounce when redrawing
-```javascript
-   var resizeVis = _.debounce(
-      app.views.mainView.render,
-      RESIZE_REFRESH_RATE
-   );
+<section class="large">
+<h1>Debounce when redrawing</h1>
+```coffeescript
 
-   $(window).on("resize", resizeVis)
+render = ()->
+  # function to redraw the visualization
+
+delayedRender = _.debounce(render, 200) # 200ms delay
+
+$(window).on("resize", delayedRender)
+
 ```
-
 Note:
 Here's a couple of details that are very useful when creating responsive visualizations. First, drawing a visualization is usually quite intense and you don't wanna kill your browser tab just because you decide to redraw the whole thing every time the user changes the screen size. That's when something like 'debounce' or 'throttle' comes in really handy. I usually use the underscore version, but there are other implementations available. 'Debounce' is pretty cool: you throw in a function (render in our case) and it makes sure that the function is only executed if a certain time has passed since its last execution. Which means that in this example here, render is called at most every RESIZE_REFRESH_RATE milliseconds.
 You can see that effect on oecdregionalwellbeing.org, too. If you resize the window it takes a short moment for all the flower visualizations to redraw.
+
+</section>
+
+
+
+<section class="large">
+<h1>Debounce vs. throttle</h1>
+```
+
+debounce
+call: .. .  .   ... ... .. ......    ...
+exec:                                   [break]*
+
+throttle
+call: .. .  .   ... ... .. ......    ...
+exec: [break]*[break]*[break]*[break]*[break]*
+
+```
+
+
+</section>
 
 
 

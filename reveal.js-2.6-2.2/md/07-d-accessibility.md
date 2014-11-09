@@ -1,4 +1,4 @@
-<section class="chapter">
+<section class="chapter" id="accessibility">
 <h1>Accessibility</h1>
 </section>
 
