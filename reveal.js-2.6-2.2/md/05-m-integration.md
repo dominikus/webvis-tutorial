@@ -8,14 +8,14 @@
 <h1>Findability</h1>
 
 <pre class="html"><code>
-<html>
-	<head>
-		<style type="text/css"></style>
-	</head>
-	<body>
-		<script src="main.js"></script>
-	</body>
-</html>
+&lt;html>
+	&lt;head>
+		&lt;style type="text/css">&lt;/style>
+	&lt;/head>
+	&lt;body>
+		&lt;script src="main.js">&lt;/script>
+	&lt;/body>
+&lt;/html>
 
 </code>
 </pre>
@@ -28,19 +28,19 @@
 <h1>Findability</h1>
 
 <pre class="html"><code>
-<html>
-	<head>
-		<title>Visualizing something</title>
-		<meta name="description" content="An interactive visualization of ...">
-		<style type="text/css"></style>
-	</head>
-	<body>
-		<h1 style="visibility: hidden;">Title of page</h1>
-		<p style="visibility: hidden;">Intro text</p>
-		<img style="visibility: hidden;" src="hero.png" />
-		<script src="main.js"></script>
-	</body>
-</html>
+&lt;html>
+	&lt;head>
+		&lt;title>Visualizing something&lt;/title>
+		&lt;meta name="description" content="An interactive visualization of ...">
+		&lt;style type="text/css">&lt;/style>
+	&lt;/head>
+	&lt;body>
+		&lt;h1 style="visibility: hidden;">Title of page&lt;/h1>
+		&lt;p style="visibility: hidden;">Intro text&lt;/p>
+		&lt;img style="visibility: hidden;" src="hero.png" />
+		&lt;script src="main.js">&lt;/script>
+	&lt;/body>
+&lt;/html>
 
 </code>
 </pre>
@@ -66,9 +66,10 @@
 
 <section>
 
-<iframe src="//oecdregionalwellbeing.org"></iframe>
-Three modes of sharing: Home page, specific region, snippet level
-What people share: http://twitter.com/search?q=oecdrwb&src=typd
+<iframe style="height: 500px !important;" src="//oecdregionalwellbeing.org"></iframe>
+<h3>Three modes of sharing: Home page, specific region, snippet level</h3>
+
+<h3>What people share: http://twitter.com/search?q=oecdrwb&src=typd</h3>
 
 
 </section>
@@ -76,7 +77,7 @@ What people share: http://twitter.com/search?q=oecdrwb&src=typd
 
 
 <section data-background="" class="">
-<h1>Social sharing</h1>
+<h1>Snippet sharing</h1>
 
 <img src="assets/integration/sharing.png">
 <br><br>

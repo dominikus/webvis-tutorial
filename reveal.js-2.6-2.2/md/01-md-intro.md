@@ -30,9 +30,7 @@ Note:
 
 
 <section data-background="assets/intro/mo/mo.003.png" class="large">
-
 Note:
-
 </section>
 
 
@@ -40,7 +38,6 @@ Note:
 
 <section>
 	<iframe src="http://truth-and-beauty.net"></iframe>
-
 </section>
 
 
@@ -48,6 +45,25 @@ Note:
 <section data-background="assets/about_me_projects.png">
 <h1>Data Stories</h1>
 <iframe class="full" src="http://datastori.es"></iframe>
+</section>
+
+
+
+<section class="chapter">
+<h1>Why?</h1>
+</section>
+
+
+
+<section class="chapter">
+<h1>Plan</h1>
+<h2>Look at two interactive web-based visualizations in detail</h2>
+<h2>General mechanisms</h2>
+<h2>Individual topics</h2>
+<h3>Web development tools, Integration, Accessibility, Responsiveness, Performance, Internationalization, Tracking…</h3>
+<h2>Recap, Q&A</h2>
+<br>
+<h2>Caffeination: 15:40 - 16:15</h2>
 </section>
 
 

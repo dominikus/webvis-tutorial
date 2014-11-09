@@ -8,7 +8,7 @@ body {
   background: #000 url("../assets/bg.png") !important; }
 
 section {
-  padding: 10px 10px 0 !important; }
+  padding: 0 !important; }
   section * {
     text-align: left; }
 
@@ -49,18 +49,13 @@ h4 {
   font-weight: 600 !important;
   background: #e6ff85 !important; }
 
-.chapter h1 {
-  font-size: 3em !important; }
-.chapter h2, .chapter h3, .chapter h4, .chapter h5 {
-  font-size: 2em !important; }
-
-.large * {
+.large *, .chapter * {
   font-size: 1.5em !important; }
-.large h1 {
+.large h1, .chapter h1 {
   font-size: 3em !important; }
-.large h2 {
+.large h2, .chapter h2 {
   font-size: 2em !important; }
-.large h3, .large h4, .large h5 {
+.large h3, .large h4, .large h5, .chapter h3, .chapter h4, .chapter h5 {
   font-size: 1.4em !important;
   margin-top: none; }
 
@@ -69,8 +64,8 @@ h4 {
 
 .iframe-link-container {
   position: absolute !important;
-  right: 80px;
-  top: 10px;
+  right: 0px;
+  top: 5px;
   text-align: right !important;
   float: none; }
 
@@ -89,14 +84,14 @@ h4 {
 
 iframe {
   display: block;
-  min-height: 640px !important;
+  min-height: auto !important;
   height: 640px !important;
   margin: 0.5em 0 0 !important;
   background: #FFF;
-  width: 1260px; }
+  width: 100%; }
   iframe.full {
-    width: 1260px !important;
-    max-width: 1260px !important; }
+    width: 100% !important;
+    max-width: 100% !important; }
 
 img {
   border: none !important;
@@ -119,13 +114,13 @@ ul {
 .full-height {
   display: block;
   width: auto !important;
-  height: 790px;
+  height: 700px;
   margin: 0 auto; }
 
 .full-width {
   display: block;
   height: auto !important;
-  width: 1280px;
+  width: 100%;
   margin: 0 auto; }
 
 pre, code, code span {

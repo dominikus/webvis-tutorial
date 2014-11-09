@@ -4,7 +4,7 @@
 
 
 
-<section class="large" data-background="">
+<section class="" data-background="">
 <h1>Why aren't there more data vis research projects up at... </h1>
 <h2>Flowingdata</h2>
 <h2>infosthetics</h2>
@@ -13,6 +13,15 @@
 <br>
 <em>Let's fix that.</em>
 
+</section>
+
+
+
+
+<section data-background="" class="large">
+<h1>How to create a successful website</h1>
+<h2 class="fragment">Short answer: It's a bit of a mystery</h2>
+<h2 class="fragment">Long answer: There's a few things that usually work better than others.</h2>
 </section>
 
 

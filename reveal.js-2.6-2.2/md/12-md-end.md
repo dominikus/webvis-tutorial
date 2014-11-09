@@ -1,7 +1,9 @@
 
 <section data-background="" class="chapter">
-# Wrapping things up
+<h1>Wrapping things up</h1>
 </section>
+
+
 
 <section data-background="" class="large">
 <h1>Checklist</h1>
@@ -41,9 +43,7 @@
 <h2>
 	Tracking
 </h2>
-
 </section>
-
 
 
 
