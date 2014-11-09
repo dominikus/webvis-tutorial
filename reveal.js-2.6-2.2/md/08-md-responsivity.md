@@ -56,7 +56,7 @@ Nevertheless, this doesn't prevent creating great interactive visualizations for
 
 
 <section data-background="">
-<h1>[http://mobilev.is/](http://mobilev.is/)</h1>
+
 <iframe class="full" src="http://mobilev.is"></iframe>
 
 Note:
@@ -66,7 +66,6 @@ If you're interested in more examples of mobile datavis, check out these two web
 
 
 <section data-background="">
-<h1>[http://mobileinfovis.com/](http://mobileinfovis.com/)</h1>
 <iframe class="full" src="http://mobileinfovis.com"></iframe>
 
 Note:
@@ -74,7 +73,8 @@ Note:
 </section>
 
 
-
+<!-- <section data-background="" class="large"> -->
+<!-- ^ doesn't work with the markdown -->
 # mouse -> touch
 ```javascript
 mousedown
@@ -113,8 +113,9 @@ Note:
 
 
 # mouse, touch -> pointer?
+<iframe style="width: 75%; float: right; height: 700px;" src="http://caniuse.com/#feat=pointer"></iframe>
 <img src="http://www.w3.org/TR/pointerevents/pointer.png"></img>
-<iframe src="http://caniuse.com/#feat=pointer"></iframe>
+
 Note:
 might change soon into device-agnostic 'pointer'-events, but so far only supported in internet explorer...
 
@@ -147,7 +148,6 @@ What's not so nice is scaling: d3.js leaves all scaling issues to the developer,
 
 <section data-background="">
 <h1>Bootstrap grid</h1>
-# Bootstrap grid
 <iframe class="full" src="http://getbootstrap.com/css/#grid"></iframe>
 </section>
 
@@ -199,6 +199,7 @@ You can see that effect on oecdregionalwellbeing.org, too. If you resize the win
 
 
 
+<section class="large">
 ## meta viewports
 ```
 <html>
@@ -213,9 +214,11 @@ You can see that effect on oecdregionalwellbeing.org, too. If you resize the win
 
 Note:
 How the website is scaled initially especially on mobile browsers depends on your viewport-settings in the corresponding meta-tag. Usually you wanna have width equals device-width (that means the width of the page fully fills the device's width) and your initial scale being 1 (that means that the webpage isn't zoomed in or out initially). Sometimes it might even be useful to prevent people from being able to zoom the website altogether. Then you have to set "user-scalable" to "no".
+</section>
 
 
 
+<section class="large">
 ## disable scrolling
 ```javascript
 document.ontouchstart =
@@ -225,9 +228,11 @@ document.ontouchstart =
 ```
 Note:
 If your visualization is "fullscreen" on the mobile device, you probably want to disable the scrolling effects on touch devices, so they don't collide with your vis interaction.
+</section>
 
 
 
+<section class="large">
 ## SVG viewports and viewboxes
 ```
 svg {
@@ -235,17 +240,18 @@ svg {
    preserveAspectRatio: xMidYMin meet;
 }
 ```
-<svg width="1280" height="512" style="background:white;viewBox:0 0 666 400;">
+
+<svg width="1280" height="512" style="viewBox:0 0 666 400; margin-top: 20px;">
 
 <g class="fragment">
-   <rect x="25" y="5" width="420" height="240" style="stroke-width:5px;stroke:black;fill:none">
+   <rect x="25" y="5" width="420" height="240" style="stroke-width:2px;stroke:white;fill:none">
    </rect>
    <rect x="45" y="25" width="380" height="200" style="stroke-width:20px;stroke:#f05f00;fill:white">
    </rect>
 </g>
 
 <g class="fragment">
-   <rect x="525" y="5" width="733" height="240" style="stroke-width:5px;stroke:black;fill:none">
+   <rect x="525" y="5" width="733" height="240" style="stroke-width:2px;stroke:white;fill:none">
    </rect>
    <rect x="701" y="25" width="380" height="200" style="stroke-width:20px;stroke:#f05f00;fill:white">
    </rect>
@@ -257,10 +263,12 @@ Note:
 One last detail is about using the browser's internal scaling capabilities for your responsive visualization. Most d3 visualizations are drawn in an SVG (scalable vector graphics) element, which is nice, because, well, it's a vector drawing, so it's easy to scale. You can tell the browser independent from the actual width and height of the SVG element, its viewport, what dimensions its internal coordinate system is supposed to have. That happens in the "viewBox" style: We define an internal coordinate system from 0,0 to 500,250. (->slide)
 In this case, the SVG element fits the window perfectly, but what happens when the window becomes larger or smaller? That's what the second style, "preserveAspectRatio" is for. The second parameter, "meet" in our case, defines that the SVG's viewBox should show everything without cutting anything off. The first parameter defines how the viewBox is aligned with regard to its surroundings. So when we say "xMidYMin", that means that the horizontal center of the viewBox becomes aligned with the horizontal center of the viewport and the vertical minima become aligned as well. (-> slide)
 So if the viewport is much wider than the viewbox, the viewbox is horizontally centered - a rare sight in web development and its gives you responsiveness for free.
+</section>
 
 
 
-<section data-background="assets/responsivity/phone_hand.png">
+
+<section data-background="assets/responsivity/phone_hand.png" class="light">
 # Mobile first
 
 Note:
@@ -279,6 +287,7 @@ The interaction context is central here and, fortunately, we can even get parts 
 
 
 
+<section class="large">
 # Geolocation
 ```javascript
 navigator.geolocation.getCurrentPosition(
@@ -293,7 +302,7 @@ navigator.geolocation.getCurrentPosition(
 
 Note:
 One of those is the geolocation framework that returns the user's current position. And, as you can see, it's really trivial: just call the getCurrentPosition method, give it a callback, and you're all set.
-
+</section>
 
 
 <h2 class="bottom">OECD Regional Well-Being</h2>
@@ -307,41 +316,47 @@ We used the geolocation API for regional well-being. When you open up the websit
 
 
 
+<section class="large">
 # Graphics technologies
-<div class="fragment">
+
+<br>
+
+<div class="fragment triple">
+
 <h2>SVG</h2>
 
 <ul>
-<li class="pro">vector-based &nbsp;&nbsp;&nbsp;&#x2295;</li>
-<li class="pro">DOM integration &nbsp;&nbsp;&nbsp;&#x2295;</li>
-<li class="con">slow(er) &nbsp;&nbsp;&nbsp;&#x2296;</li>
+<li class="pro">&#x2295;&nbsp;vector-based </li>
+<li class="pro">&#x2295;&nbsp;DOM integration </li>
+<li class="con">&#x2296;&nbsp;slow(er) </li>
 </ul>
 </div>
 
-<div class="fragment">
+<div class="fragment triple">
 <h2>Canvas</h2>
 
 <ul>
-<li class="pro">fast &nbsp;&nbsp;&nbsp;&#x2295;</li>
-<li class="con">low-level &nbsp;&nbsp;&nbsp;&#x2299;</li>
-<li class="con">no DOM &nbsp;&nbsp;&nbsp;&#x2296;</li>
+<li class="pro">&#x2295;&nbsp;fast </li>
+<li class="neutral">&#x2299;&nbsp;low-level </li>
+<li class="con">&#x2296;&nbsp;no DOM </li>
 </ul>
 </div>
 
-<div class="fragment">
+<div class="fragment triple">
 
 <h2>WebGL</h2>
 
 <ul>
-<li class="pro">faster &nbsp;&nbsp;&nbsp;&#x2295;</li>
-<li class="pro">3D &nbsp;&nbsp;&nbsp;&#x2295;</li>
-<li class="con">low-level &nbsp;&nbsp;&nbsp;&#x2299;</li>
-<li class="con">no DOM &nbsp;&nbsp;&nbsp;&#x2296;</li>
+<li class="pro">&#x2295;&nbsp;faster </li>
+<li class="pro">&#x2295;&nbsp;3D </li>
+<li class="neutral">&#x2299;&nbsp;low-level </li>
+<li class="con">&#x2296;&nbsp;no DOM </li>
 </ul>
 </div>
 
 Note:
 Another aspect when developing for mobile is performance. Phones and tablets are just slower than your usual laptop. So it makes sense to pick the right graphics technology for your project: SVG is nice because it's vector-based (i.e., scales easily) and even has DOM integration, so you can bind event handlers to specific elements of your visualization. But, it's a bit slower than canvas and WebGL. Those two are fairly low-level, based on drawing loops (so you tell them to clean and then draw all graphical elements yourself basically) and lack the DOM-support. But they're fast! So, pick your poison.
+</section>
 
 
 
@@ -432,7 +447,7 @@ A pattern that you often have in infovis is hovering for details and clicking fo
 
 
 
-<section data-background="assets/responsivity/d3_multitouch.png">
+<section data-background="assets/responsivity/d3_multitouch.png" class="light">
 # Multi-touch/Gestural interactions
 
 Note:

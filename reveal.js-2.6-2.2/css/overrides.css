@@ -26,9 +26,12 @@ h3, h4, h5 {
   color: #BBB !important; }
 
 .attribution {
-  position: absolute !important;
-  bottom: 0px !important;
-  font-size: 0.85em !important; }
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 10px !important;
+  text-align: right;
+  max-width: 20%; }
 
 .todo {
   color: #333 !important;
@@ -103,6 +106,23 @@ pre, code {
   margin: 0 !important;
   padding: 0 !important;
   display: block;
-  background: none; }
+  background: none;
+  max-height: 95% !important; }
+
+.large pre, .large code, .large code span {
+  font-size: 36px !important; }
+.large .triple li {
+  font-size: 0.75em !important; }
+
+.triple {
+  width: 30%;
+  float: left;
+  margin-right: 1% !important; }
+
+.pro {
+  color: #c3ffbf; }
+
+.con {
+  color: #feb0b3; }
 
 /*# sourceMappingURL=overrides.css.map */
