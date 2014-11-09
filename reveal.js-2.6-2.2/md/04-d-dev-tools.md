@@ -82,9 +82,9 @@ null         ==   undefined     // true
 window.globalVar = 14
 ```
 
-## '==' operator more reliable
+* '==' operator more reliable
 
-## changing function scope without __this_
+* changing function scope without __this_
 ```coffeescript
 () ->
 	# regular, caller-scope
@@ -189,4 +189,139 @@ p {
   border-radius: 10px;
 }
 ```
+
+
+
+# Chrome
+<iframe src="http://www.google.com/chrome/" class="full"></iframe>
+Note:
+Chrome often browser of choice
+great dev tools included
+also: often faster than the other browsers which is nice when you want to get a good feeling about the stuff you're developing ;)
+
+
+
+# Chrome DevTools
+<iframe src="http://discover-devtools.codeschool.com" class="full"></iframe>
+Note:
+Paul Irish, developer advocate for Chrome, produces lots of tutorials and helpful videos.
+
+
+
+# Chrome DevTools
+<iframe src="https://developer.chrome.com/devtools/docs/videos" class="full"></iframe>
+Note:
+show chrome devtools
+explain tabs
+show mobile support
+
+
+# Grunt
+<iframe src="http://gruntjs.com" class="full"></iframe>
+Note:
+grunt: a task runner - automation for everything
+
+
+
+# Grunt
+## package.json
+```json
+{
+  "name": "my-project-name",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
+  }
+}
+```
+
+
+
+# Grunt
+## Gruntfile.coffee
+<pre><code class="coffeescript">
+module.exports = (grunt) ->
+	## project definition
+	grunt.initConfig(
+
+		pkg: grunt.file.readJSON('package.json')
+
+		uglify:
+			options:
+				banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+			build:
+				src: 'src/<%= pkg.name %>.js'
+				dest: 'build/<%= pkg.name %>.min.js'
+	)
+
+	## load plugins
+	require('load-grunt-tasks')(grunt)
+
+	## tasks
+	grunt.registerTask('default', ['uglify'])
+</code></pre>
+
+
+
+<section>
+<h1>Grunt - useful plugins</h1>
+<h3>config</h3>
+<pre><code class="coffeescript">
+	grunt.initConfig(
+		# ...
+		# sets a configuration
+		config:
+			dev:
+				options:
+					variables:
+						# development mode
+						'environment': 'dev'
+			dist:
+				options:
+					variables:
+						# production mode
+						'environment': 'dist'
+	)
+	# ...
+	grunt.registerTask('dev', ['config:dev'])
+</code></pre>
+</section>
+
+
+
+# Grunt - useful plugins
+
+### coffee
+```coffeescript
+	grunt.initConfig(
+		# ...
+		# compiles coffeescript
+		coffee:
+			default:
+				options:
+					join: true
+				files:
+					'<%= grunt.config.get("environment") %>/js/main.js' :
+					['src/coffee/**/*.coffee', 'src/coffee/main.coffee']
+```
+
+
+
+# Grunt - useful plugins
+
+### sass
+Compiles Sass
+### connect
+Starts a webserver
+### watch
+Triggers tasks on file changes
+### clean
+Deletes files and directories
+### copy
+Copies files and directories
+
+
 
