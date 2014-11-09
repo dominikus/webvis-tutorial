@@ -13,13 +13,33 @@ I'm Dominikus Baur and I do data visualizations and mobile interaction design he
 
 
 
-<section data-background="assets/about_me_projects.png">
-# Moritz Stefaner
-
-<iframe style="height:600px;" src="http://truth-and-beauty.net/about"></iframe>
-<h3 class="bottom"><a href="http://twitter.com/moritz_stefaner">@moritz_stefaner</a></h3>
+<section data-background="assets/intro/mo/mo.001.png" class="large">
 
 Note:
+
+</section>
+
+
+
+<section data-background="assets/intro/mo/mo.002.png" class="large">
+
+Note:
+
+</section>
+
+
+
+<section data-background="assets/intro/mo/mo.003.png" class="large">
+
+Note:
+
+</section>
+
+
+
+
+<section>
+	<iframe src="http://truth-and-beauty.net"></iframe>
 
 </section>
 

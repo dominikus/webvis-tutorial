@@ -28,7 +28,7 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="" class="">
-<h3>Techniques to draw people in</h3>
+<h4>Techniques to draw people in</h4>
 <h1>Where do you fit in?</h1>
 <iframe class="full" src="http://www.bbc.co.uk/news/world-15391515"></iframe>
 </section>
@@ -36,7 +36,7 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="" class="">
-<h3>Techniques to draw people in</h3>
+<h4>Techniques to draw people in</h4>
 <h1>Stepwise revelation</h1>
 <iframe class="full" src="http://labs.tageswoche.ch/geschichten/fcb-fankarte/"></iframe>
 </section>
@@ -44,7 +44,7 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="" class="">
-<h3>Techniques to draw people in</h3>
+<h4>Techniques to draw people in</h4>
 <h1>Scrollytelling</h1>
 <iframe class="full" src="http://www.angelamorelli.com/water/"></iframe>
 </section>
@@ -59,14 +59,14 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 <section data-background="assets/intro/eigenfactor.png" class=" light">
-<h3>Techniques to draw people in</h3>
+<h4>Techniques to draw people in</h4>
 <h1>Seductive depth and complexity</h1>
 </section>
 
 
 
 <section data-background="" class="">
-<h3>Techniques to draw people in</h3>
+<h4>Techniques to draw people in</h4>
 <h1>Mix of exploration and explanation</h1>
 <iframe src="http://worrydream.com/#!/ScientificCommunicationAsSequentialArt" class="full"></iframe>
 </section>
