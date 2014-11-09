@@ -56,7 +56,7 @@ Nevertheless, this doesn't prevent creating great interactive visualizations for
 
 
 <section data-background="">
-
+<h1>Mobile Vis</h1>
 <iframe class="full" src="http://mobilev.is"></iframe>
 
 Note:

@@ -63,11 +63,8 @@ h4 {
   color: #333 !important; }
 
 .iframe-link-container {
-  position: absolute !important;
-  right: 0px;
-  top: 5px;
-  text-align: right !important;
-  float: none; }
+  float: right;
+  text-align: right !important; }
 
 .iframe-link {
   font-family: Consolas, Monaco, monospace !important;
