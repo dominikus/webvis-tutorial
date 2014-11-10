@@ -8,7 +8,7 @@
 
 <section data-background="" >
 <div style="height:720px">&nbsp;</div>
-<iframe style="width: 860px !important; min-width: 800px !important; position: absolute; left:0px; top:40px; height: 720px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
+<iframe style="width: 870px !important; min-width: 870px !important; position: absolute; left:0px; top:40px; height: 720px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 <iframe style="width: 400px !important; min-width: 400px !important; height: 600px; position: absolute; right:0; top:40px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 </section>
 
@@ -121,7 +121,7 @@ Note:
 
 
 # mouse, touch -> pointer?
-<iframe style="width: 75%; float: right; height: 700px;" src="http://caniuse.com/#feat=pointer"></iframe>
+<iframe style="width: 75% !important; min-width: 75% !important; float: right; height: 700px;" src="http://caniuse.com/#feat=pointer"></iframe>
 <img src="http://www.w3.org/TR/pointerevents/pointer.png"></img>
 
 Note:

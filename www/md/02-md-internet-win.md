@@ -149,7 +149,7 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 <section data-background="" class="">
 <h1>Help</h1>
-<iframe class="full" src="http://oecdregionalwellbeing.org"></iframe>
+<iframe class="full" src="http://oecdregionalwellbeing.org/region.html#FR10"></iframe>
 </section>
 
 
@@ -161,8 +161,6 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-
-
 <section data-background="" class="large">
 <h1>Press kit</h1>
 <h2>Journalists today are superbusy and have very little time for their articles</h2>
@@ -171,7 +169,6 @@ Situation: fresh visitor who knows nothing! (no expert users)
 <br><br>
 <a href="http://www.dropbox.com/sh/fnef9dl17zjhxqv/byBy9_40Wu">Selfiecity dropbox</a>
 </section>
-
 
 
 
