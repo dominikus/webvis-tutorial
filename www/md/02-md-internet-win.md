@@ -1,15 +1,36 @@
 <section data-background="http://i0.kym-cdn.com/photos/images/original/000/421/458/6ca.gif" id="internet-win">
-
 </section>
 
 
 
-<section class="" data-background="">
-<h1>Why aren't there more data vis research projects up at... </h1>
-<h2>Flowingdata</h2>
-<h2>infosthetics</h2>
-<h2>boing boing</h2>
-<h2>visualcomplexity</h2>
+<section data-background="" class="">
+<iframe class="full" src="http://flowingdata.com"></iframe>
+</section>
+
+
+
+<section data-background="" class="">
+<iframe class="full" src="http://www.visualcomplexity.com/vc/"></iframe>
+</section>
+
+
+
+<section data-background="" class="">
+<iframe class="full" src="http://www.fastcodesign.com/section/infographic-of-the-day"></iframe>
+</section>
+
+
+
+<section data-background="" class="">
+<iframe class="full" src="http://www.informationisbeautifulawards.com"></iframe>
+</section>
+
+
+
+<section class="large" data-background="">
+<h1>Why aren't there more data vis research projects up on these sites? </h1>
+—
+<h1>Or at least a feature now and then on interesting research findings?</h1>
 <br>
 <em>Let's fix that.</em>
 
