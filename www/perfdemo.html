@@ -35,11 +35,10 @@
 	<svg id="vis" width="1280px" height="560px">
 	</svg>
 
-	<button onclick="moveCircle();">animoot</button>
+	<button onclick="moveCircle();">animoot!</button>
 
 	<script type="text/javascript">
-	var svg = undefined;
-	var circle = undefined;
+	var svg = circle = undefined;
 	var circlePos = {};
 	var circleDirection = {x:1.2,y:1.2};
 	var speed = 5;
@@ -52,13 +51,6 @@
 			.attr("cx", circlePos.x)
 			.attr("cy", circlePos.y)
 			.attr("r", 35);
-
-		console.log("done rendering");
-	};
-	var drawCircle = function(){
-		circle
-			.attr("cx", circlePos.x)
-			.attr("cy", circlePos.y);
 	};
 
 	var moveCircle = function(){
@@ -79,7 +71,9 @@
 		}
 
 		// draw the circle!
-		drawCircle();
+		circle
+			.attr("cx", circlePos.x)
+			.attr("cy", circlePos.y);
 
 		// trigger redrawing:
 		window.setTimeout(moveCircle, 10);
