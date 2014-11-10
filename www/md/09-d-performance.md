@@ -104,7 +104,7 @@ Another aspect when developing for mobile is performance. Phones and tablets are
 
 
 # Optimizing animations
-* use requestAnimationFrame instead of set timeout
+* use requestAnimationFrame instead of setTimeout
 * precalculate as much as possible
 * do precalculations: in the Better-Life index, all animation states for petals and flowers are pre-calculated before playing them back
 
@@ -112,6 +112,11 @@ Another aspect when developing for mobile is performance. Phones and tablets are
 
 # CSS3 animations
 <iframe src="http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1" class="full"></iframe>
+
+
+
+# More info on OECD BLI tech:
+<iframe src="http://do.minik.us/blog/oecd-bli-tech" class="full"></iframe>
 
 
 
