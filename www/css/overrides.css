@@ -147,6 +147,13 @@ pre, code {
 .large .triple li {
   font-size: 0.75em !important; }
 
+strong, emph {
+  font-weight: 700 !important; }
+
+th, td, tr {
+  border: 1px solid white !important;
+  padding: 20px !important; }
+
 .triple {
   width: 30% !important;
   min-width: 30% !important;
