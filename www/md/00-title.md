@@ -7,6 +7,7 @@
 <h2>[Moritz Stefaner](http://moritz.stefaner.eu) — [@moritz_stefaner](http://twitter.com/moritz_stefaner)</h2>
 <br><br>
 Slides: http://bit.ly/webvis14
+Code: https://github.com/dominikus/webvis-tutorial
 </div>
 <div class="credit" style="margin-top: 400px;">Image credit: <a href="https://www.flickr.com/photos/joseduarteq/5570335290/in/set-72157626819118313">Jose Duarte</a></div>
 
