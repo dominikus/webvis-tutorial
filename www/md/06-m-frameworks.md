@@ -1,6 +1,7 @@
 <section data-background="https://c1.staticflickr.com/9/8002/6991670642_6eb38923a3_b.jpg" class="chapter" id="frameworks">
 <h1>Frameworks</h1>
 <div class="credit"><a href="https://www.flickr.com/photos/clarabella121/3898106856/in/photolist-bDQ96y-6WsPmU-osZU8z-5YUWDd-5YQHXB-aByvbp-cPmrRj-biRpH4-7JPNTa-5Uskv5-61wjbq-dqpbfN-iWRP1D-adqCs3-diQV13-9VCrWz-dkr687-ezRXgp-9JzATK-dawbJS-7b94Up-mRJuM4-3LaCwU-5iryz5-6KtVzM-iQee9S-nnGyNc-4qWJFf-e4pLHU-aZhnF-bhmgYZ-dqBTEp-7Zdiqs-6daAri-2Uaby-oqwX8B-3upp7g-e4jaLv-5WrKfE-5UXLZn-2HpGw-8xkjzG-edPbxQ-a3V81g-gigKbG-62rhB7-a7kXrY-8myMMT-qbSt1-dwyH79/">Image credit</a></div>
+<div class="time">15:20</div>
 </section>
 
 
