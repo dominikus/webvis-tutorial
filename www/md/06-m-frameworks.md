@@ -21,6 +21,19 @@ Note:
 
 
 
+<section data-background="" class="large">
+<h1>Backbone</h1>
+<h2>Models</h2>
+<h3>Store data in a structured form</h3>
+<h2>Collections</h2>
+<h3>Lists of models with lots of helpers</h3>
+<h2>Views</h2>
+<h3>Display / modify models, provide user interface</h3>
+<h2>Router</h2>
+<h3>Manages application state, URL routing</h3>
+</section>
+
+
 
 <section data-background="">
 <iframe class="full" src="http://underscorejs.org/"></iframe>
@@ -55,20 +68,6 @@ window.document.title = newLabel + "  |  OECD Regional Well-Being"
 
 <section data-background="">
 <img src="assets/integration/excellence-map.png">
-</section>
-
-
-
-<section data-background="" class="large">
-<h1>Backbone</h1>
-<h2>Models</h2>
-<h3>Store data in a structured form</h3>
-<h2>Collections</h2>
-<h3>Lists of models with lots of helpers</h3>
-<h2>Views</h2>
-<h3>Display / modify models, provide user interface</h3>
-<h2>Router</h2>
-<h3>Manages application state, URL routing</h3>
 </section>
 
 

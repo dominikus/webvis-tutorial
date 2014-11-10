@@ -37,11 +37,6 @@ h4 {
   font-size: 0.8em !important;
   margin: 0 0 0.3em 0 !important; }
 
-th, td, tr {
-  border: 1px solid white !important;
-  padding: 20px !important;
-}
-
 .attribution {
   position: absolute;
   top: 0px;
@@ -109,10 +104,6 @@ img {
   border: none !important;
   background: transparent !important; }
 
-strong, emph {
-  font-weight: 700 !important;
-}
-
 ul {
   display: block !important;
   list-style: none !important;
@@ -156,8 +147,16 @@ pre, code {
 .large .triple li {
   font-size: 0.75em !important; }
 
+strong, emph {
+  font-weight: 700 !important; }
+
+th, td, tr {
+  border: 1px solid white !important;
+  padding: 20px !important; }
+
 .triple {
-  width: 30%;
+  width: 30% !important;
+  min-width: 30% !important;
   float: left;
   margin-right: 1% !important; }
 
