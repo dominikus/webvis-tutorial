@@ -34,6 +34,14 @@ h4 {
   font-size: 0.8em !important;
   margin: 0 0 0.3em 0 !important; }
 
+svg {
+  margin-left: 50px;
+}
+
+.axis path {
+  display: none;
+}
+
 .attribution {
   position: absolute;
   top: 0px;

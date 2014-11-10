@@ -2,13 +2,13 @@ Reveal.addEventListener('ready', function(event) {
 	var drawChart = function(target, titles){
 		var data = [1050,1340,1400,1550, 937];
 		var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-		var horizontal = d3.scale.ordinal().domain(days).rangePoints([50,650]);
-		var vertical = d3.scale.linear().domain([0,1500]).range([550,50]);
+		var horizontal = d3.scale.ordinal().domain(days).rangePoints([120,650]);
+		var vertical = d3.scale.linear().domain([0,1500]).range([550,100]);
 		var svg = d3.select(target).append("svg").attr("width", "800px").attr("height", "600px").style("background", "white");
 		var chart = svg.selectAll(".bar").data(data);
 		var chartEnter = chart.enter().append("rect")
 			.classed("bar", true)
-			.attr("x", function(d,i){ return horizontal(days[i]);})
+			.attr("x", function(d,i){ return horizontal(days[i]) - 40;})
 			.attr("y", vertical)
 			.attr("width", "80px")
 			.attr("height", function(d){ return 550 - vertical(d);})
@@ -25,7 +25,7 @@ Reveal.addEventListener('ready', function(event) {
 		var yAxis = d3.svg.axis().scale(vertical).orient("left");
 
 		svg.append("g").attr("class", "axis").attr("transform", "translate(0,550)").call(xAxis);
-		svg.append("g").attr("class", "axis").attr("transform", "translate(50,0)").call(yAxis);
+		svg.append("g").attr("class", "axis").attr("transform", "translate(80,0)").call(yAxis);
 	};
 
 	drawChart("#screen-reader-chart", false);

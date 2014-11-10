@@ -14,6 +14,23 @@
 
 
 
+# Colorblindness
+<iframe src="http://colorvisiontesting.com/online%20test.htm" class="full"></iframe>
+Note:
+X-chromosome, therefore 1 in 10 men,
+
+
+
+<section data-background="assets/accessibility/divided.jpg">
+</section>
+
+
+
+# Color scales
+<iframe src="http://colorbrewer2.org" class="full"></iframe>
+
+
+
 # Screen readers
 <iframe class="full" src="http://en.wikipedia.org/wiki/Jacques_Bertin"></iframe>
 
