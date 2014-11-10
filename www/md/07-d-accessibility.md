@@ -1,5 +1,6 @@
 <section class="chapter" id="accessibility" data-background="https://farm4.staticflickr.com/3497/3241885878_62c09f78bd_b.jpg">
 <h1>Accessibility</h1>
+<div class="time">16:15</div>
 </section>
 
 
@@ -11,6 +12,23 @@
 <li class="fragment">8.1 million (3.3%): Vision Impairment (Census Bureau)</li>
 <li class="fragment">54% of adults living with a disability go online (<a href="http://www.practicalecommerce.com/articles/1417-Accessibility-How-Many-Disabled-Web-Users-Are-There-">PEW Internet Project</a>)</li>
 </ul>
+
+
+
+# Colorblindness
+<iframe src="http://colorvisiontesting.com/online%20test.htm" class="full"></iframe>
+Note:
+X-chromosome, therefore 1 in 10 men,
+
+
+
+<section data-background="assets/accessibility/divided.jpg">
+</section>
+
+
+
+# Color scales
+<iframe src="http://colorbrewer2.org" class="full"></iframe>
 
 
 

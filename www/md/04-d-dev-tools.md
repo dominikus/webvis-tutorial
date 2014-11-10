@@ -1,6 +1,9 @@
 <section class="chapter" data-background="https://c3.staticflickr.com/3/2336/12963647764_4e36b1e7f7_b.jpg" id="dev-tools">
 <h1 style="float: left; background: rgba(0,0,0,.6);">Development tools</h1>
 <div class="credit"><a href="https://www.flickr.com/photos/gamersincepong/12963647764/in/photolist-JtQTn-gyBUH8-7gZ7jk-hU9dX1-oXDdeW-6KiPpW-i2xjA-fkcmCg-e8XyLZ-dnhqBa-dnhi18-bwZnw8-7nngQh-5Gpzf1-8YnZfz-8YEPsJ-5MpoYi-7bY6D5-kKy5Qm-AWPhK-axQdFE-axMw1r-34Ydj3-9t9Mgs-6MVmQk-dRUCR9-apw4pq-7vB3Xz-dg8q3B-3qABBc-5pgQvd-cBFPks-97W6vk-77TfQi-4R3qvW-bAYR2i-bHkaJX-jUr7wz-dyzDnx-4ohaCg-a3WRRa-4dJTMQ-4u9yjQ-5vWbSL-7ZtXWw-9JeeMM-9DeocW-aodKwL-btGHBi-S9pz3/lightbox/">Image credit</a></div>
+
+<div class="time">14:40</div>
+
 </section>
 
 
@@ -560,6 +563,11 @@ Get latest commits from remote repository
 
 Note:
 add for staging files, reset for cleaning the stage
+
+
+
+# Tower (OSX)
+<iframe src="http://www.git-tower.com" class="full"></iframe>
 
 
 

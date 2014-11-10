@@ -1,0 +1,84 @@
+<html>
+<head>
+	<title>awesome performance!</title>
+	<style>
+		body {
+			background: #333;
+		}
+		circle {
+			fill: #377;
+			stroke: white;
+			opacity: 1.0;
+		}
+		button {
+
+		}
+	</style>
+
+	<script type="text/javascript" src="lib/js/d3.min.js"></script>
+
+	<script type="text/javascript">
+	var smartCalculation = function(){
+		var smart = 0;
+		for(var i = 0; i < 50000; i++){
+			smart = Math.sqrt(Math.sqrt(Math.sqrt(Math.pow(20002,2000))));
+			d3.select("body").append("p").text(smart).remove()
+		}
+		window.setTimeout(smartCalculation, 10);
+	};
+	smartCalculation();
+	</script>
+</head>
+
+
+<body>
+	<svg id="vis" width="1280px" height="560px">
+	</svg>
+
+	<button onclick="moveCircle();">animoot!</button>
+
+	<script type="text/javascript">
+	var svg = circle = undefined;
+	var circlePos = {};
+	var circleDirection = {x:1.2,y:1.2};
+	var speed = 5;
+
+	var render = function(){
+		svg = d3.select("#vis");
+
+		circlePos = {x:250,y:50};
+		circle = svg.append("circle")
+			.attr("cx", circlePos.x)
+			.attr("cy", circlePos.y)
+			.attr("r", 35);
+	};
+
+	var moveCircle = function(){
+
+		// adjust circle position
+		circlePos.x += circleDirection.x * speed;
+		circlePos.y += circleDirection.y * speed;
+		var randomFactor = 1 + (Math.random()*0.5-0.25);
+		if(circlePos.x >= 500){
+			circleDirection.x = -randomFactor;
+		} else if(circlePos.x < 50){
+			circleDirection.x = randomFactor;
+		}
+		if(circlePos.y >= 500){
+			circleDirection.y = -randomFactor;
+		} else if(circlePos.y < 50){
+			circleDirection.y = randomFactor;
+		}
+
+		// draw the circle!
+		circle
+			.attr("cx", circlePos.x)
+			.attr("cy", circlePos.y);
+
+		// trigger redrawing:
+		window.setTimeout(moveCircle, 10);
+	};
+
+	render();
+	</script>
+</body>

@@ -1,11 +1,19 @@
 <section data-background="" id="intro">
 
 # Dominikus Baur
-
-<p class="short">
-</p>
-
 <h3 class="bottom">http://do.minik.us<br/><a href="http://twitter.com/dominikus">@dominikus</a></h3>
+
+* 2002 - 2007	Media Informatics **Diplom** (LMU Munich)
+* 2007 - 2011	Media Informatics **PhD** (LMU Munich)
+* 2011 - 2012	**Postdoc** with Sheelagh Carpendale (Uni Calgary)
+* since 2012	**Freelance** / **Consultant**
+
+
+
+# Dominikus Baur
+<h3 class="bottom">http://do.minik.us<br/><a href="http://twitter.com/dominikus">@dominikus</a></h3>
+
+<iframe src="http://do.minik.us/projects" class="full"></iframe>
 
 Note:
 I'm Dominikus Baur and I do data visualizations and mobile interaction design here in Munich. One of the challenges that I find most interesting is how to get visualizations to mobile devices, so tablets or even smartphones.
@@ -85,7 +93,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://www.wired.com/2014/02/explore-world-selfies-new-data-visualization-tool/"></iframe>
 Note:
 </section>
@@ -93,7 +101,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://news.nationalgeographic.com/news/2014/02/140226-selfie-photography-word-of-the-year-sociology-digital/"></iframe>
 Note:
 </section>
@@ -102,7 +110,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://www.elle.com/news/culture/grown-up-men-take-more-selfies-than-grown-up-women"></iframe>
 Note:
 </section>
