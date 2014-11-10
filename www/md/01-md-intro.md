@@ -1,11 +1,19 @@
 <section data-background="" id="intro">
 
 # Dominikus Baur
-
-<p class="short">
-</p>
-
 <h3 class="bottom">http://do.minik.us<br/><a href="http://twitter.com/dominikus">@dominikus</a></h3>
+
+* 2002 - 2007	Media Informatics **Diplom** (LMU Munich)
+* 2007 - 2011	Media Informatics **PhD** (LMU Munich)
+* 2011 - 2012	**Postdoc** with Sheelagh Carpendale (Uni Calgary)
+* since 2012	**Freelance** / **Consultant**
+
+
+
+# Dominikus Baur
+<h3 class="bottom">http://do.minik.us<br/><a href="http://twitter.com/dominikus">@dominikus</a></h3>
+
+<iframe src="http://do.minik.us/projects" class="full"></iframe>
 
 Note:
 I'm Dominikus Baur and I do data visualizations and mobile interaction design here in Munich. One of the challenges that I find most interesting is how to get visualizations to mobile devices, so tablets or even smartphones.
