@@ -1,14 +1,15 @@
 <section class="chapter light" data-background="assets/responsivity/reponsiveness.jpg" id="responsivity">
   <h1>Reponsiveness</h1>
   <div class="credit"><a href="https://www.flickr.com/photos/aglet/34609812/in/photolist-4FhiiK-5E6kCz-9fAdZr-pv6iFz-8Reb3T-7WK7D5-6QYkqU-4XJsbd-hTqpZN-pjX2qG-acLQJX-cfWG8y-7WZs9G-7ov5AM-5YsSfx-5k5nj-5coZnS-44oix-44ojh-44ohU-4eijeh-xJbZs-7fBqSX-TdN2p-5vDSaf-haKeJ-7GGvQE-7WK82G-FnyZM-dieQmw-2htBfQ-MWkb-evSnQ-8DoQ4u-de6ESp-aqhkkC-4UEJWX-bkFr2Q-eAknd7-8gHZg9-7i5W9v-5hvJVB-6tyXAz-8Agzhj-6SKcMb-eAhdST-56rhEz-4pa1sy-5SAFiV-9msxAf">Image credit</a></div>
+  <div class="time">16:30</div>
 </section>
 
 
 
 <section data-background="" >
-
-<iframe style="width: 800px; float: right; height: 600px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
-<iframe style="width: 400px; height: 600px; float: left;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
+<div style="height:720px">&nbsp;</div>
+<iframe style="width: 860px !important; min-width: 800px !important; position: absolute; left:0px; top:40px; height: 720px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
+<iframe style="width: 400px !important; min-width: 400px !important; height: 600px; position: absolute; right:0; top:40px;" src="http://oecdregionalwellbeing.org/region.html#DE9"></iframe>
 </section>
 
 
