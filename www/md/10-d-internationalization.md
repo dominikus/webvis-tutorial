@@ -1,4 +1,7 @@
-# Internationalization
+<section class="chapter" id="internationalization">
+  <h1>Internationalization</h1>
+  <div class="time">17:20</div>
+</section>
 
 
 

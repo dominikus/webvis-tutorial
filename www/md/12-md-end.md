@@ -1,6 +1,7 @@
 
-<section data-background="" class="chapter">
-<h1>Wrapping things up</h1>
+<section data-background="" class="chapter" id="end">
+	<h1>Wrapping things up</h1>
+ 	<div class="time">17:40</div>
 </section>
 
 
