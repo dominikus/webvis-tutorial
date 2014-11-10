@@ -70,7 +70,7 @@ track = (ev, p1, p2) ->
 
 
 <section>
-	# A/B testing
+	<h1>A/B testing</h1>
 	<iframe src="http://www.smashingmagazine.com/2010/06/24/the-ultimate-guide-to-a-b-testing/"></iframe>
 
 </section>

@@ -122,17 +122,20 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-
 <section data-background="">
-<h2 class="todo">noch ein negativ Beispiel</h2>
+<h4>Techniques to push people away</h4>
+<h1>False promises</h1>
+<br><br>
+<a href="http://beta.thesustainabilitysudoku.info/">-> http://beta.thesustainabilitysudoku.info/</a>
 </section>
 
 
 
-<section data-background="">
-<h4 >Techniques to push people away</h4>
-<h1>False promises</h1>
-<iframe class="full" src="http://beta.thesustainabilitysudoku.info/"></iframe>
+<section data-background="" class=" large">
+<h1>How to explain complex tools</h1>
+<h2 class="fragment">Tough challenge</h2>
+<h2 class="fragment">Overview first, details on demand</h2>
+<h2 class="fragment">Does not need to be fully self-explanatory, but self-revealing</h2>
 </section>
 
 
@@ -151,31 +154,16 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-
 <section data-background="" class="">
-<h1>Help</h1>
-<h2 class="todo">More examples</h2>
+<h1>Screencast/Demo</h1>
+<iframe src="//player.vimeo.com/video/23839605?portrait=0" width="100%" height="600px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/23839605">Interactive Exploration of a Dynamical System</a> from <a href="http://vimeo.com/worrydream">Bret Victor</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </section>
+
+
 
 
 
 <section data-background="" class="large">
-<h1>Checklist</h1>
-<h2>Does it draw you in?</h2>
-<h2>"Why should I care?"</h2>
-<h2>Is it shareable?</h2>
-<h2>Is it findable?</h2>
-<h2>Is it enjoyable to use?</h2>
-<h2>Is it informative?</h2>
-<h2 class="todo">Refine?</h2>
-</section>
-
-
-
-
-
-
-<section data-background="" class=" ">
 <h1>Press kit</h1>
 <h2>Journalists today are superbusy and have very little time for their articles</h2>
 <h2>Give them ready-to-use material</h2>
@@ -184,6 +172,18 @@ Situation: fresh visitor who knows nothing! (no expert users)
 <a href="http://www.dropbox.com/sh/fnef9dl17zjhxqv/byBy9_40Wu">Selfiecity dropbox</a>
 </section>
 
+
+
+
+<section data-background="" class="large">
+	<h1>Checklist</h1>
+	<h2>Is it findable?</h2>
+	<h2>Does it draw you in?</h2>
+	<h2>Is it enjoyable to use?</h2>
+	<h2>Is it informative?</h2>
+	<h2>"Why should I care?"</h2>
+	<h2>Is it shareable?</h2>
+</section>
 
 
 

@@ -34,6 +34,7 @@ Reveal.addEventListener('ready', function(event) {
 
 	// niceties
 	$( 'p:empty' ).remove();
+	$("a[href^='http://']").attr("target","_blank");
 
 	$("section").each(function(i,slide){
 		if($(slide).hasClass("stack")){
