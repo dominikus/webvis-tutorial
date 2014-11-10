@@ -6,7 +6,11 @@
 <h2>[Dominikus Baur](http://do.minik.us) — [@dominikus](http://twitter.com/dominikus)</h2>
 <h2>[Moritz Stefaner](http://moritz.stefaner.eu) — [@moritz_stefaner](http://twitter.com/moritz_stefaner)</h2>
 <br><br>
+<<<<<<< HEAD
 Slides: http://bit.ly/webvis14
+=======
+Slides: http://bit.ly/webvis14<br>
+>>>>>>> origin/master
 Code: https://github.com/dominikus/webvis-tutorial
 </div>
 <div class="credit" style="margin-top: 400px;">Image credit: <a href="https://www.flickr.com/photos/joseduarteq/5570335290/in/set-72157626819118313">Jose Duarte</a></div>
