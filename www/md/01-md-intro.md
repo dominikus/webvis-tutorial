@@ -93,7 +93,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://www.wired.com/2014/02/explore-world-selfies-new-data-visualization-tool/"></iframe>
 Note:
 </section>
@@ -101,7 +101,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://news.nationalgeographic.com/news/2014/02/140226-selfie-photography-word-of-the-year-sociology-digital/"></iframe>
 Note:
 </section>
@@ -110,7 +110,7 @@ Note:
 
 
 <section data-background="">
-<h1>Selfiecity</h1>
+<h1>Selfiecity coverage</h1>
 <iframe class="full" src="http://www.elle.com/news/culture/grown-up-men-take-more-selfies-than-grown-up-women"></iframe>
 Note:
 </section>
