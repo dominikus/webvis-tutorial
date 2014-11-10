@@ -122,11 +122,11 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-
+<!--
 <section data-background="">
 <h2 class="todo">noch ein negativ Beispiel</h2>
 </section>
-
+ -->
 
 
 <section data-background="">
@@ -152,10 +152,10 @@ Situation: fresh visitor who knows nothing! (no expert users)
 
 
 
-<section data-background="" class="">
+<!-- <section data-background="" class="">
 <h1>Help</h1>
 <h2 class="todo">More examples</h2>
-</section>
+</section> -->
 
 
 
