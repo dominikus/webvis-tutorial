@@ -36,7 +36,39 @@
 
 
 # HTML
-## Minimize
+<img src="http://cdn.meme.li/instances/54353870.jpg" class="full"></img>
+Note:
+Minify javascript files, css files, images, JSON-data ...
+
+
+
+# Grunt: uglify
+```coffeescript
+		uglify:
+			options:
+				compress:
+					drop_console: true
+				mangle: true
+				beautify:
+					ascii_only: true
+					quote_keys: true
+					beautify: false
+			build:
+				src: 'js/main.js'
+				dest: 'dist/js/main.js'
+
+		imagemin:
+			dynamic:
+				files: [
+					expand: true
+					cwd: 'assets/img'
+					src: ['**/*.{png,jpg,gif}']
+					dest: 'dist/assets/img'
+				]
+```
+
+
+
 <section class="large">
 # Graphics technologies
 
@@ -127,5 +159,3 @@ Another aspect when developing for mobile is performance. Phones and tablets are
 
 # Chrome DevTools - timeline
 <a href="perfdemo.html" target="_blank">-> demo</a>
-
-
