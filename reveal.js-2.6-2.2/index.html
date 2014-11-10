@@ -167,26 +167,7 @@
 		</script>
 
 		<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript">
-
-
-				Reveal.addEventListener( 'ready', function( event ) {
-					$( 'p:empty' ).remove();
-
-    			$("section").each(function(i,slide){
-    				if($(slide).hasClass("stack")){
-    					return;
-    				};
-    				var container = $("<div class='iframe-link-container'></div>").prependTo($(slide));
-	    			$("iframe", $(slide)).each(function(i,x){
-							var el = $(x);
-							var link = el.attr("src") || el.attr("data-src");
-							$("<a target='_blank' class='iframe-link' href='"+link+"''>"+link+"</a>").appendTo(container);
-						});
-					});
-				} );
-
-		</script>
+<script type="text/javascript" src="js/postInit.js"></script>
 
 	</body>
 </html>

@@ -535,5 +535,33 @@ add new library with >bower install hammerjs --save
 
 
 
+# git
+```
+> git add file
+```
+Stage files and directories
+```shell
+> git reset
+```
+Clean the stage
+```
+> git commit -m 'greatest commit evar'
+```
+Commit the stage
+
+```
+> git push
+```
+Send to remote repository
+```
+> git pull
+```
+Get latest commits from remote repository
+
+Note:
+add for staging files, reset for cleaning the stage
+
+
+
 # github
-<iframe src="https://octodex.github.com" class="full"></iframe>
+<iframe src="http://www.github.com" class="full"></iframe>
