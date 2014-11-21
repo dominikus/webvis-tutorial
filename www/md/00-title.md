@@ -10,8 +10,8 @@ Press 'arrow-left' and 'arrow-right' to navigate.
 <br>
 Press 's' to access speaker notes.
 <br><br>
-Slides: http://bit.ly/webvis14
-
+Slides: http://bit.ly/webvis14<br>
+Code: https://github.com/dominikus/webvis-tutorial
 </div>
 
 <div class="credit" style="margin-top: 400px;">Image credit: <a href="https://www.flickr.com/photos/joseduarteq/5570335290/in/set-72157626819118313">Jose Duarte</a></div>
